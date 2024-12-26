@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Song } from "@/lib/types";
 import { SongCard } from "./SongCard";
 import { TableView } from "./TableView";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ChevronDownIcon } from "lucide-react";
 
 export function MonthGrid({
@@ -30,8 +30,39 @@ export function MonthGrid({
     timeZone: "UTC",
   }).format(date);
 
+  const handleClick = (e: React.MouseEvent) => {
+    if (e.shiftKey) {
+      e.preventDefault();
+      const event = new CustomEvent("collapseOthers", { detail: { month } });
+      window.dispatchEvent(event);
+      setIsExpanded(true);
+    } else {
+      setIsExpanded(!isExpanded);
+    }
+  };
+
+  useEffect(() => {
+    const handleCollapseOthers = (e: CustomEvent) => {
+      if (e.detail.month !== month) {
+        setIsExpanded(false);
+      }
+    };
+
+    window.addEventListener(
+      "collapseOthers",
+      handleCollapseOthers as EventListener
+    );
+    return () =>
+      window.removeEventListener(
+        "collapseOthers",
+        handleCollapseOthers as EventListener
+      );
+  }, [month]);
+
   if (viewMode === "list") {
-    return <TableView songs={songs} isExpanded={isExpanded} onToggle={() => setIsExpanded(!isExpanded)} />;
+    return (
+      <TableView songs={songs} isExpanded={isExpanded} onToggle={handleClick} />
+    );
   }
 
   return (
@@ -39,7 +70,7 @@ export function MonthGrid({
       <motion.button
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        onClick={() => setIsExpanded(!isExpanded)}
+        onClick={handleClick}
         className="sticky top-6 z-10 flex items-center gap-2 text-sm text-gray-500 mb-4 hover:text-gray-700 transition-colors"
       >
         <ChevronDownIcon
