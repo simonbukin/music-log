@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState } from "react";
 import { searchMusicBrainz } from "@/lib/musicbrainz";
 import { SearchResults } from "./SearchResults";
 
@@ -32,28 +32,24 @@ export function AddSongForm() {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  // Debounced search for suggestions
-  const fetchSuggestions = useCallback(
-    debounce(async (type: string, query: string) => {
-      if (!query) {
-        setSuggestions((prev) => ({ ...prev, [type]: [] }));
-        return;
-      }
+  // Create a memoized debounced function
+  const fetchSuggestions = debounce(async (type: string, query: string) => {
+    if (!query) {
+      setSuggestions((prev) => ({ ...prev, [type]: [] }));
+      return;
+    }
 
-      try {
-        // Adjust the searchMusicBrainz function to handle different entity types
-        const results = await searchMusicBrainz({
-          type,
-          query,
-          limit: 5, // Limit suggestions to 5 items
-        });
-        setSuggestions((prev) => ({ ...prev, [type]: results }));
-      } catch (error) {
-        console.error(`Failed to fetch ${type} suggestions:`, error);
-      }
-    }, 300),
-    []
-  );
+    try {
+      const results = await searchMusicBrainz({
+        type,
+        query,
+        limit: 5,
+      });
+      setSuggestions((prev) => ({ ...prev, [type]: results }));
+    } catch (error) {
+      console.error(`Failed to fetch ${type} suggestions:`, error);
+    }
+  }, 300);
 
   const handleFilterChange = (field: keyof SearchFilters, value: string) => {
     setFilters((prev) => ({ ...prev, [field]: value }));

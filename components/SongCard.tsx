@@ -35,6 +35,7 @@ export function SongCard({
     youtubeUrl: song.youtubeUrl,
     month: song.addedAt.substring(5, 7),
     year: song.addedAt.substring(0, 4),
+    albumArt: song.albumArt,
   });
   const [imageError, setImageError] = useState(false);
 
@@ -69,6 +70,7 @@ export function SongCard({
         album: editForm.album,
         youtubeUrl: editForm.youtubeUrl,
         addedAt: newDate.toISOString(),
+        albumArt: editForm.albumArt,
       });
 
       setIsEditDialogOpen(false);
@@ -195,16 +197,15 @@ export function SongCard({
               />
             </div>
             <div className="grid gap-2">
-              <Label htmlFor="youtubeUrl">YouTube URL</Label>
+              <Label htmlFor="albumArt">Album Art URL</Label>
               <Input
-                id="youtubeUrl"
-                value={editForm.youtubeUrl}
+                id="albumArt"
+                type="url"
+                value={editForm.albumArt}
                 onChange={(e) =>
-                  setEditForm((prev) => ({
-                    ...prev,
-                    youtubeUrl: e.target.value,
-                  }))
+                  setEditForm((prev) => ({ ...prev, albumArt: e.target.value }))
                 }
+                placeholder="https://example.com/album-art.jpg"
               />
             </div>
             <div className="grid grid-cols-2 gap-4">

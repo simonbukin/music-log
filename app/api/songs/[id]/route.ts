@@ -7,7 +7,7 @@ export async function PATCH(
   { params }: { params: { id: string } }
 ) {
   try {
-    const { id } = params;
+    const { id } = await params;
     const update = await request.json();
     const songsPath = path.join(process.cwd(), "data", "songs.json");
 
@@ -37,7 +37,7 @@ export async function DELETE(
   { params }: { params: { id: string } }
 ) {
   try {
-    const { id } = params;
+    const { id } = await params;
     const songsPath = path.join(process.cwd(), "data", "songs.json");
 
     // Read current songs
