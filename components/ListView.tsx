@@ -35,6 +35,7 @@ export function ListView({
     year: "",
     albumArt: "",
   });
+  const [isExpanded, setIsExpanded] = useState(true);
 
   const years = Array.from({ length: 5 }, (_, i) =>
     (new Date().getFullYear() - i).toString()
@@ -98,9 +99,14 @@ export function ListView({
       <motion.button
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
+        onClick={() => setIsExpanded(!isExpanded)}
         className="sticky top-6 z-10 flex items-center gap-2 text-sm text-gray-500 hover:text-gray-700 transition-colors"
       >
-        <ChevronDownIcon />
+        <ChevronDownIcon
+          className={`transform transition-transform ${
+            isExpanded ? "rotate-0" : "-rotate-90"
+          }`}
+        />
         {new Intl.DateTimeFormat("default", {
           month: "long",
           year: "numeric",
@@ -109,7 +115,15 @@ export function ListView({
           .format(new Date(`${songs[0]?.addedAt}`))
           .toLowerCase()}
       </motion.button>
-      <div className="space-y-1">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{
+          opacity: isExpanded ? 1 : 0,
+          height: isExpanded ? "auto" : 0,
+        }}
+        transition={{ staggerChildren: 0.05 }}
+        className={`space-y-1 ${!isExpanded ? "overflow-hidden" : ""}`}
+      >
         {songs.map((song) => (
           <div
             key={song.id}
@@ -137,7 +151,7 @@ export function ListView({
             )}
           </div>
         ))}
-      </div>
+      </motion.div>
 
       <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
         <DialogContent className="sm:max-w-[425px]">

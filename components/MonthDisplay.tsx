@@ -3,6 +3,7 @@
 import { ListView } from "./ListView";
 import { GridView } from "./GridView";
 import { Song } from "@/lib/types";
+
 export function MonthDisplay({
   month,
   songs,
@@ -20,31 +21,20 @@ export function MonthDisplay({
   viewMode: "grid" | "list";
   stackMode?: boolean;
 }) {
-  const date = new Date(`${month}-01T00:00:00.000Z`);
-  const monthName = new Intl.DateTimeFormat("default", {
-    month: "long",
-    year: "numeric",
-    timeZone: "UTC",
-  }).format(date);
-
-  if (viewMode === "list") {
-    return (
-      <ListView
-        songs={songs}
-        showAdminControls={showAdminControls}
-        onUpdateSong={onUpdateSong}
-        onDeleteSong={onDeleteSong}
-      />
-    );
-  } else {
-    return (
-      <GridView
-        songs={songs}
-        showAdminControls={showAdminControls}
-        onUpdateSong={onUpdateSong}
-        onDeleteSong={onDeleteSong}
-        stackMode={stackMode}
-      />
-    );
-  }
+  return viewMode === "list" ? (
+    <ListView
+      songs={songs}
+      showAdminControls={showAdminControls}
+      onUpdateSong={onUpdateSong}
+      onDeleteSong={onDeleteSong}
+    />
+  ) : (
+    <GridView
+      songs={songs}
+      showAdminControls={showAdminControls}
+      onUpdateSong={onUpdateSong}
+      onDeleteSong={onDeleteSong}
+      stackMode={stackMode}
+    />
+  );
 }

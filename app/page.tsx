@@ -6,7 +6,7 @@ import { MonthDisplay } from "@/components/MonthDisplay";
 import songsData from "@/data/songs.json";
 import { Song } from "@/lib/types";
 import { useState } from "react";
-import { Grid, List } from "lucide-react";
+import { Grid, Layers, List } from "lucide-react";
 
 function groupSongsByMonth(songs: Song[]) {
   return songs.reduce((acc, song) => {
@@ -81,11 +81,7 @@ export default function Home() {
             className="flex items-start justify-between"
           >
             <p className="text-sm text-gray-500">what has simon listened to?</p>
-          </motion.div>
-
-          {/* Add View Toggle Switch */}
-          <div className="mt-6 space-y-4">
-            <div className="flex items-center justify-start gap-4">
+            <div className="flex items-center justify-start gap-1">
               <button
                 onClick={() => setViewMode("grid")}
                 className={`px-3 py-1 rounded-md text-sm ${
@@ -106,10 +102,7 @@ export default function Home() {
               >
                 <List className="w-4 h-4" />
               </button>
-            </div>
-
-            {viewMode === "grid" && (
-              <div className="flex items-center gap-2">
+              {viewMode === "grid" && (
                 <button
                   onClick={() => setStackMode(!stackMode)}
                   className={`px-3 py-1 rounded-md text-sm ${
@@ -118,11 +111,11 @@ export default function Home() {
                       : "text-gray-500 hover:bg-gray-100"
                   }`}
                 >
-                  {stackMode ? "Stacked" : "Unstacked"}
+                  <Layers className="w-4 h-4" />
                 </button>
-              </div>
-            )}
-          </div>
+              )}
+            </div>
+          </motion.div>
 
           {isDev && (
             <motion.div
