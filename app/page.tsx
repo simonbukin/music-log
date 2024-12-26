@@ -84,7 +84,7 @@ export default function Home() {
             <p className="text-sm text-gray-500">simon is listening to</p>
           </motion.div>
 
-          {!isDev && (
+          {isDev && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
