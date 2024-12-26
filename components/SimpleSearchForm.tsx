@@ -378,6 +378,12 @@ export function SimpleSearchForm({
                 <p className="font-medium truncate">{result.title}</p>
                 <p className="text-sm text-gray-500 truncate">
                   {result["artist-credit"]?.[0]?.name}
+                  {result.releases?.[0]?.title && (
+                    <span className="text-gray-400">
+                      {" "}
+                      • {result.releases[0].title}
+                    </span>
+                  )}
                 </p>
               </div>
               <button

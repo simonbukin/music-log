@@ -102,12 +102,12 @@ export default function Home() {
             <button
               onClick={() => setViewMode("list")}
               className={`px-3 py-1 rounded-md text-sm ${
-                viewMode === "table"
+                viewMode === "list"
                   ? "bg-gray-200 text-gray-800"
                   : "text-gray-500 hover:bg-gray-100"
               }`}
             >
-              Table
+              List
             </button>
           </div>
 
