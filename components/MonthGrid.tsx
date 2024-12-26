@@ -6,6 +6,7 @@ import { SongCard } from "./SongCard";
 import { TableView } from "./TableView";
 import { useState, useEffect } from "react";
 import { ChevronDownIcon } from "lucide-react";
+import { SongStack } from "./SongStack";
 
 export function MonthGrid({
   month,
@@ -14,6 +15,7 @@ export function MonthGrid({
   onUpdateSong,
   onDeleteSong,
   viewMode = "grid",
+  stackMode,
 }: {
   month: string;
   songs: Song[];
@@ -21,6 +23,7 @@ export function MonthGrid({
   onUpdateSong?: (songId: string, updates: Partial<Song>) => Promise<void>;
   onDeleteSong?: (songId: string) => Promise<void>;
   viewMode: "grid" | "list";
+  stackMode?: boolean;
 }) {
   const [isExpanded, setIsExpanded] = useState(true);
   const date = new Date(`${month}-01T00:00:00.000Z`);
@@ -59,6 +62,17 @@ export function MonthGrid({
       );
   }, [month]);
 
+  function groupSongsByAlbum(songs: Song[]) {
+    return songs.reduce((acc, song) => {
+      const key = `${song.artist}___${song.album}`;
+      if (!acc[key]) {
+        acc[key] = [];
+      }
+      acc[key].push(song);
+      return acc;
+    }, {} as Record<string, Song[]>);
+  }
+
   if (viewMode === "list") {
     return (
       <TableView songs={songs} isExpanded={isExpanded} onToggle={handleClick} />
@@ -85,23 +99,43 @@ export function MonthGrid({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ staggerChildren: 0.05 }}
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+          className="flex flex-wrap gap-3"
         >
-          {songs.map((song, index) => (
-            <motion.div
-              key={song.id}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: index * 0.05 }}
-            >
-              <SongCard
-                song={song}
-                showAdminControls={showAdminControls}
-                onUpdateSong={onUpdateSong}
-                onDeleteSong={onDeleteSong}
-              />
-            </motion.div>
-          ))}
+          {stackMode
+            ? Object.values(groupSongsByAlbum(songs))
+                .sort((a, b) => b[0].addedAt.localeCompare(a[0].addedAt))
+                .map((songGroup, index) => (
+                  <motion.div
+                    key={`${songGroup[0].artist}-${songGroup[0].album}`}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    <SongStack
+                      songs={songGroup}
+                      onClick={() => {
+                        // Optional: Add click handler to show details modal
+                      }}
+                    />
+                  </motion.div>
+                ))
+            : songs
+                .sort((a, b) => b.addedAt.localeCompare(a.addedAt))
+                .map((song, index) => (
+                  <motion.div
+                    key={song.id}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    <SongCard
+                      song={song}
+                      showAdminControls={showAdminControls}
+                      onUpdateSong={onUpdateSong}
+                      onDeleteSong={onDeleteSong}
+                    />
+                  </motion.div>
+                ))}
         </motion.div>
       )}
     </section>

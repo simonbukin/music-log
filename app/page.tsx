@@ -22,6 +22,7 @@ export default function Home() {
   const isDev = process.env.NODE_ENV === "development";
   const [songs, setSongs] = useState(songsData.songs);
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const [stackMode, setStackMode] = useState(true);
   const songsByMonth = groupSongsByMonth(songs);
 
   const handleUpdateSong = async (songId: string, updates: Partial<Song>) => {
@@ -77,38 +78,55 @@ export default function Home() {
       className="min-h-screen flex flex-col lg:flex-row"
     >
       {/* Left Column - becomes top section on mobile */}
-      <div className="w-full lg:w-1/2 lg:fixed lg:left-0 lg:top-0 lg:h-screen flex items-start justify-center lg:justify-end p-6">
+      <div className="w-full lg:w-1/2 lg:fixed lg:left-0 lg:top-0 lg:h-screen flex items-start justify-start lg:justify-end p-6">
         <div className="max-w-xs w-full">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center justify-between"
+            className="flex items-start justify-between"
           >
             <p className="text-sm text-gray-500">what has simon listened to?</p>
           </motion.div>
 
           {/* Add View Toggle Switch */}
-          <div className="mt-6 flex items-center justify-start gap-4">
-            <button
-              onClick={() => setViewMode("grid")}
-              className={`px-3 py-1 rounded-md text-sm ${
-                viewMode === "grid"
-                  ? "bg-gray-200 text-gray-800"
-                  : "text-gray-500 hover:bg-gray-100"
-              }`}
-            >
-              Grid
-            </button>
-            <button
-              onClick={() => setViewMode("list")}
-              className={`px-3 py-1 rounded-md text-sm ${
-                viewMode === "list"
-                  ? "bg-gray-200 text-gray-800"
-                  : "text-gray-500 hover:bg-gray-100"
-              }`}
-            >
-              List
-            </button>
+          <div className="mt-6 space-y-4">
+            <div className="flex items-center justify-start gap-4">
+              <button
+                onClick={() => setViewMode("grid")}
+                className={`px-3 py-1 rounded-md text-sm ${
+                  viewMode === "grid"
+                    ? "bg-gray-200 text-gray-800"
+                    : "text-gray-500 hover:bg-gray-100"
+                }`}
+              >
+                Grid
+              </button>
+              <button
+                onClick={() => setViewMode("list")}
+                className={`px-3 py-1 rounded-md text-sm ${
+                  viewMode === "list"
+                    ? "bg-gray-200 text-gray-800"
+                    : "text-gray-500 hover:bg-gray-100"
+                }`}
+              >
+                List
+              </button>
+            </div>
+
+            {viewMode === "grid" && (
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setStackMode(!stackMode)}
+                  className={`px-3 py-1 rounded-md text-sm ${
+                    stackMode
+                      ? "bg-gray-200 text-gray-800"
+                      : "text-gray-500 hover:bg-gray-100"
+                  }`}
+                >
+                  {stackMode ? "Stacked" : "Unstacked"}
+                </button>
+              </div>
+            )}
           </div>
 
           {isDev && (
@@ -150,6 +168,7 @@ export default function Home() {
                     onUpdateSong={handleUpdateSong}
                     onDeleteSong={handleDeleteSong}
                     viewMode={viewMode as "grid" | "list"}
+                    stackMode={stackMode}
                   />
                 </motion.div>
               ))}
