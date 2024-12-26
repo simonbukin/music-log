@@ -2,10 +2,12 @@ import { writeFile, readFile } from "fs/promises";
 import { NextResponse } from "next/server";
 import path from "path";
 
-export async function PATCH(
-  request: Request,
-  { params }: { params: { id: string } }
-) {
+type UpdateParams = {
+  params: Promise<{
+    id: string;
+  }>;
+};
+export async function PATCH(request: Request, { params }: UpdateParams) {
   try {
     const { id } = await params;
     const update = await request.json();
@@ -32,10 +34,12 @@ export async function PATCH(
   }
 }
 
-export async function DELETE(
-  request: Request,
-  { params }: { params: { id: string } }
-) {
+type DeleteParams = {
+  params: Promise<{
+    id: string;
+  }>;
+};
+export async function DELETE(request: Request, { params }: DeleteParams) {
   try {
     const { id } = await params;
     const songsPath = path.join(process.cwd(), "data", "songs.json");
