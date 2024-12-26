@@ -6,15 +6,7 @@ import { parseSearchQuery } from "@/lib/searchParser";
 import { AlbumArtPlaceholder } from "./AlbumArtPlaceholder";
 import { X, Check } from "lucide-react";
 
-export function SimpleSearchForm({
-  onAddSong,
-  songToEdit = null,
-  onEditComplete = () => {},
-}: {
-  onAddSong: (song: any) => void;
-  songToEdit?: any;
-  onEditComplete?: () => void;
-}) {
+export function SimpleSearchForm({ onAddSong }: { onAddSong: (song: any) => void }) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);

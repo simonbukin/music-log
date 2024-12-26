@@ -6,6 +6,7 @@ import { MonthGrid } from "@/components/MonthGrid";
 import songsData from "@/data/songs.json";
 import { Song } from "@/lib/types";
 import { useState } from "react";
+import { Grid, List } from "lucide-react";
 
 function groupSongsByMonth(songs: Song[]) {
   return songs.reduce((acc, song) => {
@@ -99,7 +100,7 @@ export default function Home() {
                     : "text-gray-500 hover:bg-gray-100"
                 }`}
               >
-                Grid
+                <Grid className="w-4 h-4" />
               </button>
               <button
                 onClick={() => setViewMode("list")}
@@ -109,7 +110,7 @@ export default function Home() {
                     : "text-gray-500 hover:bg-gray-100"
                 }`}
               >
-                List
+                <List className="w-4 h-4" />
               </button>
             </div>
 
