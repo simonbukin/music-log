@@ -21,12 +21,13 @@ function groupSongsByMonth(songs: Song[]) {
 export default function Home() {
   const isDev = process.env.NODE_ENV === "development";
   const [songs, setSongs] = useState(songsData.songs);
+  const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const songsByMonth = groupSongsByMonth(songs);
 
   const handleUpdateSong = async (songId: string, updates: Partial<Song>) => {
     // Optimistically update the UI
-    setSongs(currentSongs => 
-      currentSongs.map(song => 
+    setSongs((currentSongs) =>
+      currentSongs.map((song) =>
         song.id === songId ? { ...song, ...updates } : song
       )
     );
@@ -51,7 +52,9 @@ export default function Home() {
     if (!confirm("Are you sure you want to delete this song?")) return;
 
     // Optimistically update the UI
-    setSongs(currentSongs => currentSongs.filter(song => song.id !== songId));
+    setSongs((currentSongs) =>
+      currentSongs.filter((song) => song.id !== songId)
+    );
 
     // Update the server
     try {
@@ -81,8 +84,32 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center justify-between"
           >
-            <p className="text-sm text-gray-500">simon is listening to</p>
+            <p className="text-sm text-gray-500">what has simon listened to?</p>
           </motion.div>
+
+          {/* Add View Toggle Switch */}
+          <div className="mt-6 flex items-center justify-start gap-4">
+            <button
+              onClick={() => setViewMode("grid")}
+              className={`px-3 py-1 rounded-md text-sm ${
+                viewMode === "grid"
+                  ? "bg-gray-200 text-gray-800"
+                  : "text-gray-500 hover:bg-gray-100"
+              }`}
+            >
+              Grid
+            </button>
+            <button
+              onClick={() => setViewMode("list")}
+              className={`px-3 py-1 rounded-md text-sm ${
+                viewMode === "table"
+                  ? "bg-gray-200 text-gray-800"
+                  : "text-gray-500 hover:bg-gray-100"
+              }`}
+            >
+              Table
+            </button>
+          </div>
 
           {isDev && (
             <motion.div
@@ -122,6 +149,7 @@ export default function Home() {
                     showAdminControls={isDev}
                     onUpdateSong={handleUpdateSong}
                     onDeleteSong={handleDeleteSong}
+                    viewMode={viewMode as "grid" | "list"}
                   />
                 </motion.div>
               ))}
