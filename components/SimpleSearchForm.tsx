@@ -1,14 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { searchMusicBrainz } from "@/lib/musicbrainz";
 import { parseSearchQuery } from "@/lib/searchParser";
 import { AlbumArtPlaceholder } from "./AlbumArtPlaceholder";
 
 export function SimpleSearchForm({
   onAddSong,
+  songToEdit = null,
+  onEditComplete = () => {},
 }: {
   onAddSong: (song: any) => void;
+  songToEdit?: any;
+  onEditComplete?: () => void;
 }) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
@@ -16,6 +20,13 @@ export function SimpleSearchForm({
   const [addDate, setAddDate] = useState({
     month: new Date().toISOString().substring(5, 7),
     year: new Date().getFullYear().toString(),
+  });
+  const [isManualEntry, setIsManualEntry] = useState(false);
+  const [manualForm, setManualForm] = useState({
+    title: "",
+    artist: "",
+    album: "",
+    coverArt: "",
   });
 
   const years = Array.from({ length: 5 }, (_, i) =>
@@ -37,6 +48,22 @@ export function SimpleSearchForm({
     { value: "12", label: "December" },
   ];
 
+  useEffect(() => {
+    if (songToEdit) {
+      setIsManualEntry(true);
+      setManualForm({
+        title: songToEdit.title,
+        artist: songToEdit.artist,
+        album: songToEdit.album,
+        coverArt: songToEdit.albumArt,
+      });
+      setAddDate({
+        month: new Date(songToEdit.addedAt).toISOString().substring(5, 7),
+        year: new Date(songToEdit.addedAt).getFullYear().toString(),
+      });
+    }
+  }, [songToEdit]);
+
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -57,6 +84,52 @@ export function SimpleSearchForm({
     setLoading(false);
   };
 
+  const handleManualSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const newSong = {
+      id: songToEdit?.id || Date.now().toString(),
+      title: manualForm.title,
+      artist: manualForm.artist,
+      album: manualForm.album,
+      albumArt: manualForm.coverArt,
+      youtubeUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(
+        `${manualForm.title} ${manualForm.artist}`
+      )}`,
+      addedAt: new Date(
+        `${addDate.year}-${addDate.month}-01T12:00:00.000Z`
+      ).toISOString(),
+    };
+
+    if (songToEdit) {
+      try {
+        const response = await fetch(`/api/songs/${songToEdit.id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(newSong),
+        });
+        if (!response.ok) throw new Error("Failed to update song");
+        onEditComplete();
+      } catch (error) {
+        console.error("Failed to update song:", error);
+      }
+    } else {
+      onAddSong(newSong);
+      try {
+        const response = await fetch("/api/songs", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(newSong),
+        });
+        if (!response.ok) throw new Error("Failed to add song");
+      } catch (error) {
+        console.error("Failed to add song:", error);
+      }
+    }
+
+    setManualForm({ title: "", artist: "", album: "", coverArt: "" });
+    setIsManualEntry(false);
+  };
+
   const handleAddSong = async (result: any) => {
     const newSong = {
       id: Date.now().toString(),
@@ -73,8 +146,6 @@ export function SimpleSearchForm({
     };
 
     onAddSong(newSong);
-    setResults([]);
-    setQuery("");
 
     try {
       const response = await fetch("/api/songs", {
@@ -84,10 +155,124 @@ export function SimpleSearchForm({
       });
 
       if (!response.ok) throw new Error("Failed to add song");
+
+      // Clear results after successful add
+      setResults([]);
+      setQuery("");
     } catch (error) {
       console.error("Failed to add song:", error);
     }
   };
+
+  if (isManualEntry) {
+    return (
+      <div className="space-y-4">
+        <div className="grid grid-cols-2 gap-2">
+          <div>
+            <label className="block text-sm text-gray-600 mb-1">Month</label>
+            <select
+              value={addDate.month}
+              onChange={(e) =>
+                setAddDate((prev) => ({ ...prev, month: e.target.value }))
+              }
+              className="w-full p-2 border rounded-lg"
+            >
+              {months.map((month) => (
+                <option key={month.value} value={month.value}>
+                  {month.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className="block text-sm text-gray-600 mb-1">Year</label>
+            <select
+              value={addDate.year}
+              onChange={(e) =>
+                setAddDate((prev) => ({ ...prev, year: e.target.value }))
+              }
+              className="w-full p-2 border rounded-lg"
+            >
+              {years.map((year) => (
+                <option key={year} value={year}>
+                  {year}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        <form onSubmit={handleManualSubmit} className="space-y-4">
+          <div className="space-y-2">
+            <input
+              type="text"
+              value={manualForm.title}
+              onChange={(e) =>
+                setManualForm((prev) => ({ ...prev, title: e.target.value }))
+              }
+              className="w-full p-2 border rounded-lg"
+              placeholder="Song Title"
+              required
+            />
+            <input
+              type="text"
+              value={manualForm.artist}
+              onChange={(e) =>
+                setManualForm((prev) => ({ ...prev, artist: e.target.value }))
+              }
+              className="w-full p-2 border rounded-lg"
+              placeholder="Artist"
+              required
+            />
+            <input
+              type="text"
+              value={manualForm.album}
+              onChange={(e) =>
+                setManualForm((prev) => ({ ...prev, album: e.target.value }))
+              }
+              className="w-full p-2 border rounded-lg"
+              placeholder="Album"
+              required
+            />
+            <input
+              type="url"
+              value={manualForm.coverArt}
+              onChange={(e) =>
+                setManualForm((prev) => ({ ...prev, coverArt: e.target.value }))
+              }
+              className="w-full p-2 border rounded-lg"
+              placeholder="Cover Art URL (optional)"
+            />
+          </div>
+
+          <div className="flex gap-2">
+            <button
+              type="submit"
+              className="flex-1 bg-black text-white px-4 py-2 rounded-lg"
+            >
+              {songToEdit ? "Save Changes" : "Add Song"}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setIsManualEntry(false);
+                setManualForm({
+                  title: "",
+                  artist: "",
+                  album: "",
+                  coverArt: "",
+                });
+                if (songToEdit) onEditComplete();
+              }}
+              className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50"
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-4">
@@ -140,13 +325,22 @@ export function SimpleSearchForm({
           </p>
         </div>
 
-        <button
-          type="submit"
-          className="w-full bg-black text-white px-4 py-2 rounded-lg"
-          disabled={loading}
-        >
-          {loading ? "Searching..." : "Search"}
-        </button>
+        <div className="flex gap-2">
+          <button
+            type="submit"
+            className="flex-1 bg-black text-white px-4 py-2 rounded-lg"
+            disabled={loading}
+          >
+            {loading ? "Searching..." : "Search"}
+          </button>
+          <button
+            type="button"
+            onClick={() => setIsManualEntry(true)}
+            className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50"
+          >
+            Manual Entry
+          </button>
+        </div>
       </form>
 
       <div className="space-y-2">

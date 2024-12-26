@@ -23,27 +23,27 @@
       "title": "Buddy, Come Over",
       "artist": "Everything Everything",
       "album": "Mountainhead",
-      "albumArt": "https://coverartarchive.org/release/0f4aac88-1303-44de-8c18-3b7aead5766b/front-250",
+      "albumArt": "https://upload.wikimedia.org/wikipedia/en/8/8d/Everything_Everything_-_Mountainhead.png",
       "youtubeUrl": "https://www.youtube.com/results?search_query=Buddy%2C%20Come%20Over%20Everything%20Everything",
-      "addedAt": "2024-12-26T00:59:44.357Z"
+      "addedAt": "2024-12-01T12:00:00.000Z"
     },
     {
       "id": "1735174796191",
       "title": "The End of the Contender",
       "artist": "Everything Everything",
       "album": "Indie/Rock Playlist: April 2024",
-      "albumArt": "https://coverartarchive.org/release/1e1b13b5-985c-488e-9b8e-a37f8622c612/front-250",
+      "albumArt": "https://upload.wikimedia.org/wikipedia/en/8/8d/Everything_Everything_-_Mountainhead.png",
       "youtubeUrl": "https://www.youtube.com/results?search_query=The%20End%20of%20the%20Contender%20Everything%20Everything",
-      "addedAt": "2024-12-26T00:59:56.191Z"
+      "addedAt": "2024-12-01T12:00:00.000Z"
     },
     {
       "id": "1735174808627",
       "title": "Cold Reactor",
       "artist": "Everything Everything",
       "album": "Mountainhead",
-      "albumArt": "https://coverartarchive.org/release/0f4aac88-1303-44de-8c18-3b7aead5766b/front-250",
+      "albumArt": "https://upload.wikimedia.org/wikipedia/en/8/8d/Everything_Everything_-_Mountainhead.png",
       "youtubeUrl": "https://www.youtube.com/results?search_query=Cold%20Reactor%20Everything%20Everything",
-      "addedAt": "2024-12-26T01:00:08.627Z"
+      "addedAt": "2024-12-01T12:00:00.000Z"
     },
     {
       "id": "1735174845240",
@@ -131,18 +131,18 @@
       "title": "All I Need",
       "artist": "Radiohead",
       "album": "In Rainbows",
-      "albumArt": "https://coverartarchive.org/release/55bd8c9d-1230-423e-bf26-77e8d542c5e2/front-250",
+      "albumArt": "https://upload.wikimedia.org/wikipedia/en/1/14/Inrainbowscover.png",
       "youtubeUrl": "https://www.youtube.com/results?search_query=All%20I%20Need%20Radiohead",
-      "addedAt": "2024-12-26T01:18:54.042Z"
+      "addedAt": "2024-12-01T12:00:00.000Z"
     },
     {
       "id": "1735176011522",
       "title": "Sever",
       "artist": "Arca",
       "album": "Mutant",
-      "albumArt": "https://coverartarchive.org/release/0cc56c10-1139-4d4c-8a82-68081f892814/front-250",
+      "albumArt": "https://upload.wikimedia.org/wikipedia/en/3/31/Mutant_Album_Art_by_Arca.jpg",
       "youtubeUrl": "https://www.youtube.com/results?search_query=Sever%20Arca",
-      "addedAt": "2024-12-26T01:20:11.522Z"
+      "addedAt": "2024-12-01T12:00:00.000Z"
     },
     {
       "id": "1735176163040",
@@ -188,6 +188,240 @@
       "albumArt": "https://coverartarchive.org/release/6570311b-687c-46ed-ac97-8e1e7a672358/front-250",
       "youtubeUrl": "https://www.youtube.com/results?search_query=Waterfall%20Charli%20XCX",
       "addedAt": "2024-12-26T01:28:23.290Z"
+    },
+    {
+      "id": "1735176849808",
+      "title": "Beautiful",
+      "artist": "A. G. Cook",
+      "album": "Radio Tank Mix",
+      "albumArt": "https://f4.bcbits.com/img/a0191305266_10.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Beautiful%20A.%20G.%20Cook",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735176874030",
+      "title": "Fata Morgana",
+      "artist": "Nina Chuba",
+      "album": "Farbenblind EP",
+      "albumArt": "https://coverartarchive.org/release/864ea5e0-c99a-46e2-b95e-8bb3a3338c1a/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Fata%20Morgana%20Nina%20Chuba",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735176891756",
+      "title": "Two Faced",
+      "artist": "Linkin Park",
+      "album": "From Zero",
+      "albumArt": "https://coverartarchive.org/release/53754f1b-5561-4079-bab0-97584ba91cca/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Two%20Faced%20Linkin%20Park",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735176901572",
+      "title": "Stained",
+      "artist": "Linkin Park",
+      "album": "From Zero",
+      "albumArt": "https://coverartarchive.org/release/53754f1b-5561-4079-bab0-97584ba91cca/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Stained%20Linkin%20Park",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735176909416",
+      "title": "Heavy Is the Crown",
+      "artist": "Linkin Park",
+      "album": "From Zero",
+      "albumArt": "https://coverartarchive.org/release/fa0eeed8-1ca7-46ff-af31-2169dc29f3e1/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Heavy%20Is%20the%20Crown%20Linkin%20Park",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735176922158",
+      "title": "The Emptiness Machine",
+      "artist": "Linkin Park",
+      "album": "From Zero (expanded edition)",
+      "albumArt": "https://coverartarchive.org/release/1974ac93-67fa-4888-8b6a-6002bd9c1cab/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Emptiness%20Machine%20Linkin%20Park",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735176934923",
+      "title": "I Bite Through It",
+      "artist": "Oneohtrix Point Never",
+      "album": "Garden of Delete",
+      "albumArt": "https://coverartarchive.org/release/07cd81a7-cdf4-4a54-8ea1-f82a259bb571/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=I%20Bite%20Through%20It%20Oneohtrix%20Point%20Never",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735177786611",
+      "title": "kutna hora",
+      "artist": "food house",
+      "album": "kutna hora",
+      "albumArt": "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F056326f44129fba32ea70144d6ac005d.1000x1000x1.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=kutna%20hora%20food%20house",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735177878257",
+      "title": "Light Speed 2",
+      "artist": "The Symposium",
+      "album": "Light Speed 2",
+      "albumArt": "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2Ff4ce15cc52f2a35b09ffdb23ce8fa561.543x548x1.png",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Light%20Speed%202%20The%20Symposium",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178723042",
+      "title": "Lightning Lipgloss Life",
+      "artist": "Life Sim",
+      "album": "Lightning Lipgloss Life",
+      "albumArt": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fpcmusic%2Fimages%2Fa%2Faa%2FLife_Sim_-_Lightning_Lipgloss_Life.jpg%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20180902233248&f=1&nofb=1&ipt=7939890850abfaa62aa8ed3fe0e7580eaf0acdf6c9e0ef287de42fef0fe02a72&ipo=images",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Lightning%20Lipgloss%20Life%20Life%20Sim",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178835206",
+      "title": "2021 (umru remix)",
+      "artist": "A. G. Cook",
+      "album": "Apple vs. 7G (Silver edition)",
+      "albumArt": "https://coverartarchive.org/release/5d80b634-90d8-46d7-822b-d57acf042ed4/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=2021%20(umru%20remix)%20A.%20G.%20Cook",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178878105",
+      "title": "Xcxoplex",
+      "artist": "A. G. Cook",
+      "album": "Volume 3",
+      "albumArt": "https://coverartarchive.org/release/e6ce82b2-0465-44fb-a7bd-bf4a16ff5e89/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Xcxoplex%20A.%20G.%20Cook",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178887268",
+      "title": "Glowing Exit Sign",
+      "artist": "DJ Warlord",
+      "album": "Mystery Leopard Spins Tracks At Local Nightclub",
+      "albumArt": "https://coverartarchive.org/release/b84bdef3-ce1c-40b7-9ca0-40e07d4a9ad9/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Glowing%20Exit%20Sign%20DJ%20Warlord",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178896490",
+      "title": "girl on my throne",
+      "artist": "Oklou",
+      "album": "Galore",
+      "albumArt": "https://coverartarchive.org/release/67c809a7-1bf4-41f8-9789-20580133948c/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=girl%20on%20my%20throne%20Oklou",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178912177",
+      "title": "Spiritual Driveby",
+      "artist": "Sara Landry",
+      "album": "Spiritual Driveby",
+      "albumArt": "https://coverartarchive.org/release/7002c72c-d7ca-4b10-b5d4-79d4e66e7936/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Spiritual%20Driveby%20Sara%20Landry",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178934960",
+      "title": "Trunk Acid",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Trunk%20Acid%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178943771",
+      "title": "Irisoft Livemixx",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Irisoft%20Livemixx%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735178980257",
+      "title": "The Circle",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Circle%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179033907",
+      "title": "Lose My Breath",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Lose%20My%20Breath%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179045305",
+      "title": "FM VOC 83.35",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=FM%20VOC%2083.35%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179050971",
+      "title": "X‐Fade Strategy",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=X%E2%80%90Fade%20Strategy%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179069815",
+      "title": "What’s Her Name",
+      "artist": "EPROM",
+      "album": "Untitled Emotional Acid (tracker mix)",
+      "albumArt": "https://coverartarchive.org/release/2e571f71-b937-4503-b63f-96e7a807dad6/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=What%E2%80%99s%20Her%20Name%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179082798",
+      "title": "Remorse",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Remorse%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179091059",
+      "title": "Untitled Emotional Acid",
+      "artist": "EPROM",
+      "album": "Untitled Emotional Acid (tracker mix)",
+      "albumArt": "https://coverartarchive.org/release/2e571f71-b937-4503-b63f-96e7a807dad6/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Untitled%20Emotional%20Acid%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179096914",
+      "title": "Motion Blur",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Motion%20Blur%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735179101739",
+      "title": "A New Home",
+      "artist": "EPROM",
+      "album": "Syntheism",
+      "albumArt": "https://coverartarchive.org/release/6b0112b5-fd9e-47a0-8379-432e27e40c6d/front-250",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=A%20New%20Home%20EPROM",
+      "addedAt": "2024-11-01T12:00:00.000Z"
     }
   ]
 }

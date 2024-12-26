@@ -4,6 +4,16 @@ import { Song } from "@/lib/types";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { AlbumArtPlaceholder } from "./AlbumArtPlaceholder";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogFooter,
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 
 export function SongCard({
   song,
@@ -17,8 +27,12 @@ export function SongCard({
   onDeleteSong?: (songId: string) => Promise<void>;
 }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isEditing, setIsEditing] = useState(false);
-  const [editDate, setEditDate] = useState({
+  const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
+  const [editForm, setEditForm] = useState({
+    title: song.title,
+    artist: song.artist,
+    album: song.album,
+    youtubeUrl: song.youtubeUrl,
     month: song.addedAt.substring(5, 7),
     year: song.addedAt.substring(0, 4),
   });
@@ -43,17 +57,21 @@ export function SongCard({
     { value: "12", label: "December" },
   ];
 
-  const handleUpdateDate = async () => {
+  const handleUpdateSong = async () => {
     try {
       const newDate = new Date(
-        `${editDate.year}-${editDate.month}-01T12:00:00.000Z`
+        `${editForm.year}-${editForm.month}-01T12:00:00.000Z`
       );
 
       await onUpdateSong?.(song.id, {
+        title: editForm.title,
+        artist: editForm.artist,
+        album: editForm.album,
+        youtubeUrl: editForm.youtubeUrl,
         addedAt: newDate.toISOString(),
       });
 
-      setIsEditing(false);
+      setIsEditDialogOpen(false);
     } catch (error) {
       console.error("Failed to update song:", error);
     }
@@ -121,12 +139,12 @@ export function SongCard({
               <div className="py-1">
                 <button
                   onClick={() => {
-                    setIsEditing(true);
+                    setIsEditDialogOpen(true);
                     setIsMenuOpen(false);
                   }}
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
                 >
-                  Edit Date Added
+                  Edit Song
                 </button>
                 <button
                   onClick={handleDelete}
@@ -140,21 +158,65 @@ export function SongCard({
         </div>
       )}
 
-      {isEditing && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-lg shadow-xl max-w-sm w-full mx-4">
-            <h3 className="text-lg font-medium mb-4">Edit Date Added</h3>
-            <div className="grid grid-cols-2 gap-4 mb-4">
-              <div>
-                <label className="block text-sm text-gray-600 mb-1">
-                  Month
-                </label>
+      <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
+        <DialogContent className="sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle>Edit Song</DialogTitle>
+          </DialogHeader>
+          <div className="grid gap-4 py-4">
+            <div className="grid gap-2">
+              <Label htmlFor="title">Title</Label>
+              <Input
+                id="title"
+                value={editForm.title}
+                onChange={(e) =>
+                  setEditForm((prev) => ({ ...prev, title: e.target.value }))
+                }
+              />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="artist">Artist</Label>
+              <Input
+                id="artist"
+                value={editForm.artist}
+                onChange={(e) =>
+                  setEditForm((prev) => ({ ...prev, artist: e.target.value }))
+                }
+              />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="album">Album</Label>
+              <Input
+                id="album"
+                value={editForm.album}
+                onChange={(e) =>
+                  setEditForm((prev) => ({ ...prev, album: e.target.value }))
+                }
+              />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="youtubeUrl">YouTube URL</Label>
+              <Input
+                id="youtubeUrl"
+                value={editForm.youtubeUrl}
+                onChange={(e) =>
+                  setEditForm((prev) => ({
+                    ...prev,
+                    youtubeUrl: e.target.value,
+                  }))
+                }
+              />
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="grid gap-2">
+                <Label htmlFor="month">Month</Label>
                 <select
-                  value={editDate.month}
+                  id="month"
+                  value={editForm.month}
                   onChange={(e) =>
-                    setEditDate((prev) => ({ ...prev, month: e.target.value }))
+                    setEditForm((prev) => ({ ...prev, month: e.target.value }))
                   }
-                  className="w-full p-2 border rounded-lg"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background"
                 >
                   {months.map((month) => (
                     <option key={month.value} value={month.value}>
@@ -163,14 +225,15 @@ export function SongCard({
                   ))}
                 </select>
               </div>
-              <div>
-                <label className="block text-sm text-gray-600 mb-1">Year</label>
+              <div className="grid gap-2">
+                <Label htmlFor="year">Year</Label>
                 <select
-                  value={editDate.year}
+                  id="year"
+                  value={editForm.year}
                   onChange={(e) =>
-                    setEditDate((prev) => ({ ...prev, year: e.target.value }))
+                    setEditForm((prev) => ({ ...prev, year: e.target.value }))
                   }
-                  className="w-full p-2 border rounded-lg"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background"
                 >
                   {years.map((year) => (
                     <option key={year} value={year}>
@@ -180,23 +243,18 @@ export function SongCard({
                 </select>
               </div>
             </div>
-            <div className="flex justify-end gap-2">
-              <button
-                onClick={() => setIsEditing(false)}
-                className="px-4 py-2 text-gray-600 hover:text-gray-800"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={handleUpdateDate}
-                className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800"
-              >
-                Save
-              </button>
-            </div>
           </div>
-        </div>
-      )}
+          <DialogFooter>
+            <Button
+              variant="outline"
+              onClick={() => setIsEditDialogOpen(false)}
+            >
+              Cancel
+            </Button>
+            <Button onClick={handleUpdateSong}>Save changes</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </motion.div>
   );
 }

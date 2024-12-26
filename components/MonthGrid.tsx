@@ -29,9 +29,9 @@ export function MonthGrid({
       <motion.h2
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="text-sm text-gray-500 mb-4"
+        className="sticky top-6 z-10 text-sm text-gray-500 mb-4"
       >
-        {monthName}
+        {monthName.toLowerCase()}
       </motion.h2>
       <motion.div
         initial={{ opacity: 0 }}

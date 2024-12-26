@@ -82,7 +82,6 @@ export default function Home() {
             className="flex items-center justify-between"
           >
             <p className="text-sm text-gray-500">simon is listening to</p>
-            <div className="w-full h-px bg-gray-200 mt-4 absolute left-0 right-0" />
           </motion.div>
 
           {isDev && (
@@ -92,7 +91,9 @@ export default function Home() {
               transition={{ delay: 0.2 }}
               className="mt-8"
             >
-              <SimpleSearchForm onAddSong={(song) => setSongs(curr => [...curr, song])} />
+              <SimpleSearchForm
+                onAddSong={(song) => setSongs((curr) => [...curr, song])}
+              />
             </motion.div>
           )}
         </div>
@@ -103,8 +104,9 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
+          className="relative"
         >
-          <div>
+          <div className="space-y-4">
             {Object.entries(songsByMonth)
               .sort((a, b) => b[0].localeCompare(a[0]))
               .map(([month, monthSongs], index) => (
