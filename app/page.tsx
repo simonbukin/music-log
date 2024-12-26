@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { SimpleSearchForm } from "@/components/SimpleSearchForm";
-import { MonthGrid } from "@/components/MonthGrid";
+import { MonthDisplay } from "@/components/MonthDisplay";
 import songsData from "@/data/songs.json";
 import { Song } from "@/lib/types";
 import { useState } from "react";
@@ -27,14 +27,12 @@ export default function Home() {
   const songsByMonth = groupSongsByMonth(songs);
 
   const handleUpdateSong = async (songId: string, updates: Partial<Song>) => {
-    // Optimistically update the UI
     setSongs((currentSongs) =>
       currentSongs.map((song) =>
         song.id === songId ? { ...song, ...updates } : song
       )
     );
 
-    // Update the server
     try {
       const response = await fetch(`/api/songs/${songId}`, {
         method: "PATCH",
@@ -45,7 +43,6 @@ export default function Home() {
       if (!response.ok) throw new Error("Failed to update song");
     } catch (error) {
       console.error("Failed to update song:", error);
-      // Revert the optimistic update on error
       setSongs(songsData.songs);
     }
   };
@@ -53,12 +50,10 @@ export default function Home() {
   const handleDeleteSong = async (songId: string) => {
     if (!confirm("Are you sure you want to delete this song?")) return;
 
-    // Optimistically update the UI
     setSongs((currentSongs) =>
       currentSongs.filter((song) => song.id !== songId)
     );
 
-    // Update the server
     try {
       const response = await fetch(`/api/songs/${songId}`, {
         method: "DELETE",
@@ -67,7 +62,6 @@ export default function Home() {
       if (!response.ok) throw new Error("Failed to delete song");
     } catch (error) {
       console.error("Failed to delete song:", error);
-      // Revert the optimistic update on error
       setSongs(songsData.songs);
     }
   };
@@ -162,7 +156,7 @@ export default function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1 }}
                 >
-                  <MonthGrid
+                  <MonthDisplay
                     month={month}
                     songs={monthSongs}
                     showAdminControls={isDev}

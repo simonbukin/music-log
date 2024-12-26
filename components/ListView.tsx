@@ -13,17 +13,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
-export function TableView({
+export function ListView({
   songs,
-  isExpanded,
-  onToggle,
   showAdminControls,
   onUpdateSong,
   onDeleteSong,
 }: {
   songs: Song[];
-  isExpanded: boolean;
-  onToggle: (e: React.MouseEvent) => void;
   showAdminControls?: boolean;
   onUpdateSong?: (songId: string, updates: Partial<Song>) => Promise<void>;
   onDeleteSong?: (songId: string) => Promise<void>;
@@ -102,14 +98,9 @@ export function TableView({
       <motion.button
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        onClick={onToggle}
         className="sticky top-6 z-10 flex items-center gap-2 text-sm text-gray-500 hover:text-gray-700 transition-colors"
       >
-        <ChevronDownIcon
-          className={`w-4 h-4 transition-transform ${
-            isExpanded ? "rotate-0" : "-rotate-90"
-          }`}
-        />
+        <ChevronDownIcon />
         {new Intl.DateTimeFormat("default", {
           month: "long",
           year: "numeric",
@@ -118,37 +109,35 @@ export function TableView({
           .format(new Date(`${songs[0]?.addedAt}`))
           .toLowerCase()}
       </motion.button>
-      {isExpanded && (
-        <div className="space-y-1">
-          {songs.map((song) => (
-            <div
-              key={song.id}
-              className="flex items-center gap-4 px-4 py-2 hover:bg-gray-50 rounded-lg transition-colors group"
+      <div className="space-y-1">
+        {songs.map((song) => (
+          <div
+            key={song.id}
+            className="flex items-center gap-4 px-4 py-2 hover:bg-gray-50 rounded-lg transition-colors group"
+          >
+            <a
+              href={song.youtubeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="min-w-0 flex-1"
             >
-              <a
-                href={song.youtubeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="min-w-0 flex-1"
-              >
-                <p className="text-sm font-medium truncate">{song.title}</p>
-                <p className="text-xs text-gray-500 truncate">
-                  {song.artist} • {song.album}
-                </p>
-              </a>
+              <p className="text-sm font-medium truncate">{song.title}</p>
+              <p className="text-xs text-gray-500 truncate">
+                {song.artist} • {song.album}
+              </p>
+            </a>
 
-              {showAdminControls && (
-                <button
-                  onClick={() => handleEditClick(song)}
-                  className="opacity-0 group-hover:opacity-100 transition-opacity p-1 hover:bg-gray-100 rounded-full"
-                >
-                  <MoreHorizontal className="w-4 h-4 text-gray-500" />
-                </button>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
+            {showAdminControls && (
+              <button
+                onClick={() => handleEditClick(song)}
+                className="opacity-0 group-hover:opacity-100 transition-opacity p-1 hover:bg-gray-100 rounded-full"
+              >
+                <MoreHorizontal className="w-4 h-4 text-gray-500" />
+              </button>
+            )}
+          </div>
+        ))}
+      </div>
 
       <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
         <DialogContent className="sm:max-w-[425px]">
