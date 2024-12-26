@@ -9,7 +9,7 @@ export function TableView({
 }: {
   songs: Song[];
   isExpanded: boolean;
-  onToggle: () => void;
+  onToggle: (e: React.MouseEvent) => void;
 }) {
   return (
     <section className="space-y-4">
