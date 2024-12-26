@@ -71,10 +71,10 @@ export default function Home() {
     <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="min-h-screen flex"
+      className="min-h-screen flex flex-col lg:flex-row"
     >
-      {/* Left Column */}
-      <div className="w-1/2 fixed left-0 top-0 h-screen flex items-start justify-end p-6">
+      {/* Left Column - becomes top section on mobile */}
+      <div className="w-full lg:w-1/2 lg:fixed lg:left-0 lg:top-0 lg:h-screen flex items-start justify-center lg:justify-end p-6">
         <div className="max-w-xs w-full">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -84,7 +84,7 @@ export default function Home() {
             <p className="text-sm text-gray-500">simon is listening to</p>
           </motion.div>
 
-          {isDev && (
+          {!isDev && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -99,8 +99,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Right Column */}
-      <div className="w-1/2 ml-auto">
+      {/* Right Column - becomes bottom section on mobile */}
+      <div className="w-full lg:w-1/2 lg:ml-auto mt-6 lg:mt-0 px-6 lg:px-0">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
