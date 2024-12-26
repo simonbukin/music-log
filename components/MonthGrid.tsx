@@ -75,7 +75,14 @@ export function MonthGrid({
 
   if (viewMode === "list") {
     return (
-      <TableView songs={songs} isExpanded={isExpanded} onToggle={handleClick} />
+      <TableView
+        songs={songs}
+        isExpanded={isExpanded}
+        onToggle={handleClick}
+        showAdminControls={showAdminControls}
+        onUpdateSong={onUpdateSong}
+        onDeleteSong={onDeleteSong}
+      />
     );
   }
 
