@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Song } from "@/lib/types";
 import Image from "next/image";
+import { AlbumArt } from "./AlbumArt";
 
 export function SongStack({
   songs,
@@ -24,11 +25,11 @@ export function SongStack({
     >
       {/* Main thumbnail */}
       <div className="w-12 h-12 rounded-md overflow-hidden shadow-sm">
-        <img
-          src={song.albumArt}
-          alt={song.album}
-          width={48}
-          height={48}
+        <AlbumArt
+          url={song.albumArt}
+          size={48}
+          artist={song.artist}
+          album={song.album}
           className="object-cover"
         />
       </div>
@@ -37,21 +38,21 @@ export function SongStack({
       {songs.length > 1 && (
         <>
           <div className="w-12 h-12 absolute left-2 -z-10 opacity-80">
-            <img
-              src={song.albumArt}
-              alt={song.album}
-              width={48}
-              height={48}
+            <AlbumArt
+              url={song.albumArt}
+              size={48}
+              artist={song.artist}
+              album={song.album}
               className="object-cover rounded-md"
             />
           </div>
           {songs.length > 2 && (
             <div className="w-12 h-12 absolute left-4 -z-20 opacity-60">
-              <img
-                src={song.albumArt}
-                alt={song.album}
-                width={48}
-                height={48}
+              <AlbumArt
+                url={song.albumArt}
+                size={48}
+                artist={song.artist}
+                album={song.album}
                 className="object-cover rounded-md"
               />
             </div>

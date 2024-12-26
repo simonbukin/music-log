@@ -14,6 +14,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { AlbumArt } from "./AlbumArt";
 
 export function SongCard({
   song,
@@ -101,11 +102,12 @@ export function SongCard({
         whileHover="hover"
       >
         {!imageError ? (
-          <motion.img
-            src={song.albumArt}
-            alt={`${song.album} by ${song.artist}`}
+          <AlbumArt
+            url={song.albumArt}
+            size={100}
+            artist={song.artist}
+            album={song.album}
             className="w-full h-full object-cover"
-            onError={() => setImageError(true)}
           />
         ) : (
           <AlbumArtPlaceholder />
