@@ -3995,6 +3995,2310 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02c94a5cc2c56d5c0e7e2f0bf6",
       "youtubeUrl": "https://www.youtube.com/results?search_query=Respire%20encore%20Clara%20Luciani",
       "addedAt": "2023-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270563146",
+      "title": "Flexorcist",
+      "artist": "The Voidz",
+      "album": "Flexorcist",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020215df6becc5543769a93f8d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Flexorcist%20The%20Voidz",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270564290",
+      "title": "Sunset",
+      "artist": "Gus Dapperton",
+      "album": "Henge",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fe12d97a8676684de4c7315e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Sunset%20Gus%20Dapperton",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270565419",
+      "title": "Phases",
+      "artist": "Gus Dapperton",
+      "album": "Henge",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fe12d97a8676684de4c7315e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Phases%20Gus%20Dapperton",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270566560",
+      "title": "Horizons",
+      "artist": "Gus Dapperton",
+      "album": "Henge",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fe12d97a8676684de4c7315e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Horizons%20Gus%20Dapperton",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270567685",
+      "title": "Midnight Train",
+      "artist": "Gus Dapperton",
+      "album": "Henge",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fe12d97a8676684de4c7315e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Midnight%20Train%20Gus%20Dapperton",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270568851",
+      "title": "LONG SEASON - Live",
+      "artist": "Fishmans",
+      "album": "98.12.28 男達の別れ (Live)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b8b2f65e2dfa733439974801",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=LONG%20SEASON%20-%20Live%20Fishmans",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270569979",
+      "title": "Four Point Steel Star",
+      "artist": "Kumo 99",
+      "album": "Body N. Will",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e029409bf00448e49d43c049709",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Four%20Point%20Steel%20Star%20Kumo%2099",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270571123",
+      "title": "Sugar Boo",
+      "artist": "Serani Poji",
+      "album": "MERRY GO ROUND JAILHOUSE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c2cf702a0dc602f3f02b2447",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Sugar%20Boo%20Serani%20Poji",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270572248",
+      "title": "Bring Back My Dog",
+      "artist": "This Is Lorelei",
+      "album": "EP #31",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e027b3901d571ce994559ddd183",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bring%20Back%20My%20Dog%20This%20Is%20Lorelei",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270573404",
+      "title": "Black Rum",
+      "artist": "Cake Pop",
+      "album": "Cake Pop 2",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dcac0bc35ac42721d5385cba",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Black%20Rum%20Cake%20Pop",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270574528",
+      "title": "Guitar Pick",
+      "artist": "MEMI",
+      "album": "Guitar Pick",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a891344a382a775b13cb1648",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Guitar%20Pick%20MEMI",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270575650",
+      "title": "GEEKIN",
+      "artist": "MIA GLADSTONE",
+      "album": "GEEKIN",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0216c66b8a69ee628bbfb2f9e6",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=GEEKIN%20MIA%20GLADSTONE",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270576788",
+      "title": "Petals on the Moon",
+      "artist": "Wasia Project",
+      "album": "Petals on the Moon",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c45422f06ae3e14b7343fe4a",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Petals%20on%20the%20Moon%20Wasia%20Project",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270577943",
+      "title": "Rockstar Made",
+      "artist": "Playboi Carti",
+      "album": "Whole Lotta Red",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0298ea0e689c91f8fea726d9bb",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Rockstar%20Made%20Playboi%20Carti",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270579064",
+      "title": "Stop Breathing",
+      "artist": "Playboi Carti",
+      "album": "Whole Lotta Red",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0298ea0e689c91f8fea726d9bb",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Stop%20Breathing%20Playboi%20Carti",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270580190",
+      "title": "JumpOutTheHouse",
+      "artist": "Playboi Carti",
+      "album": "Whole Lotta Red",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0298ea0e689c91f8fea726d9bb",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=JumpOutTheHouse%20Playboi%20Carti",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270581306",
+      "title": "New Tank",
+      "artist": "Playboi Carti",
+      "album": "Whole Lotta Red",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0298ea0e689c91f8fea726d9bb",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=New%20Tank%20Playboi%20Carti",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270582434",
+      "title": "Teen X (feat. Future)",
+      "artist": "Playboi Carti",
+      "album": "Whole Lotta Red",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0298ea0e689c91f8fea726d9bb",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Teen%20X%20(feat.%20Future)%20Playboi%20Carti",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270583617",
+      "title": "One Kiss",
+      "artist": "Red Velvet",
+      "album": "Chill Kill - The 3rd Album",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02bad122cfb27fc9341ce6e245",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=One%20Kiss%20Red%20Velvet",
+      "addedAt": "2023-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270675665",
+      "title": "all-american bitch",
+      "artist": "Olivia Rodrigo",
+      "album": "GUTS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e85259a1cae29a8d91f2093d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=all-american%20bitch%20Olivia%20Rodrigo",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270676794",
+      "title": "Painting (Masterpiece)",
+      "artist": "Lewis Del Mar",
+      "album": "Lewis Del Mar",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0211555ed45c4377e101d7979d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Painting%20(Masterpiece)%20Lewis%20Del%20Mar",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270677927",
+      "title": "Flexorcist",
+      "artist": "The Voidz",
+      "album": "Flexorcist",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020215df6becc5543769a93f8d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Flexorcist%20The%20Voidz",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270679046",
+      "title": "Fast Forward",
+      "artist": "JEON SOMI",
+      "album": "GAME PLAN",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e027da22ba88dfc26a18122ee2d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Fast%20Forward%20JEON%20SOMI",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270680191",
+      "title": "Leaving The Light",
+      "artist": "Genesis Owusu",
+      "album": "STRUGGLER",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b79995bb1505e8e4f5efae7e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Leaving%20The%20Light%20Genesis%20Owusu",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270681317",
+      "title": "Phospholipid",
+      "artist": "Blood Cultures",
+      "album": "Happy Birthday",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0229632439a8b84f0a05c52bb9",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Phospholipid%20Blood%20Cultures",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270682441",
+      "title": "bad idea right?",
+      "artist": "Olivia Rodrigo",
+      "album": "GUTS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e85259a1cae29a8d91f2093d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=bad%20idea%20right%3F%20Olivia%20Rodrigo",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270683567",
+      "title": "ballad of a homeschooled girl",
+      "artist": "Olivia Rodrigo",
+      "album": "GUTS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e85259a1cae29a8d91f2093d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=ballad%20of%20a%20homeschooled%20girl%20Olivia%20Rodrigo",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270684696",
+      "title": "get him back!",
+      "artist": "Olivia Rodrigo",
+      "album": "GUTS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e85259a1cae29a8d91f2093d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=get%20him%20back!%20Olivia%20Rodrigo",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270686418",
+      "title": "pretty isn’t pretty",
+      "artist": "Olivia Rodrigo",
+      "album": "GUTS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e85259a1cae29a8d91f2093d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=pretty%20isn%E2%80%99t%20pretty%20Olivia%20Rodrigo",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270687560",
+      "title": "teenage dream",
+      "artist": "Olivia Rodrigo",
+      "album": "GUTS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e85259a1cae29a8d91f2093d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=teenage%20dream%20Olivia%20Rodrigo",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270688704",
+      "title": "Bug Like an Angel",
+      "artist": "Mitski",
+      "album": "The Land Is Inhospitable and So Are We",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0234f21d3047d85440dfa37f10",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bug%20Like%20an%20Angel%20Mitski",
+      "addedAt": "2023-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270719052",
+      "title": "Doom Crossing: Eternal Horizons",
+      "artist": "The Chalkeaters",
+      "album": "Doom Crossing: Eternal Horizons",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c1c04cdaa80323ab199f486b",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Doom%20Crossing%3A%20Eternal%20Horizons%20The%20Chalkeaters",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270720183",
+      "title": "Get Got",
+      "artist": "Death Grips",
+      "album": "The Money Store",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b4f8459b0f719f8a97ee1c8c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Get%20Got%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270721309",
+      "title": "I've Seen Footage",
+      "artist": "Death Grips",
+      "album": "The Money Store",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b4f8459b0f719f8a97ee1c8c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=I've%20Seen%20Footage%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270722432",
+      "title": "Hacker",
+      "artist": "Death Grips",
+      "album": "The Money Store",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b4f8459b0f719f8a97ee1c8c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hacker%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270723574",
+      "title": "Anne Bonny",
+      "artist": "Death Grips",
+      "album": "Government Plates",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dfab0b43e267fc2227be8502",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Anne%20Bonny%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270724689",
+      "title": "Two Heavens",
+      "artist": "Death Grips",
+      "album": "Government Plates",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dfab0b43e267fc2227be8502",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Two%20Heavens%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270725844",
+      "title": "This Is Violence Now (Don't Get Me Wrong)",
+      "artist": "Death Grips",
+      "album": "Government Plates",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dfab0b43e267fc2227be8502",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=This%20Is%20Violence%20Now%20(Don't%20Get%20Me%20Wrong)%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270726960",
+      "title": "Birds",
+      "artist": "Death Grips",
+      "album": "Government Plates",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dfab0b43e267fc2227be8502",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Birds%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270728083",
+      "title": "Whatever I Want (Fuck Who's Watching)",
+      "artist": "Death Grips",
+      "album": "Government Plates",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dfab0b43e267fc2227be8502",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Whatever%20I%20Want%20(Fuck%20Who's%20Watching)%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270729206",
+      "title": "Blackjack",
+      "artist": "Death Grips",
+      "album": "The Money Store",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b4f8459b0f719f8a97ee1c8c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Blackjack%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270730325",
+      "title": "Hustle Bones",
+      "artist": "Death Grips",
+      "album": "The Money Store",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b4f8459b0f719f8a97ee1c8c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hustle%20Bones%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270731454",
+      "title": "Lil Boy",
+      "artist": "Death Grips",
+      "album": "No Love Deep Web",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f552daab2bc3dc64d2c4c649",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Lil%20Boy%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270732573",
+      "title": "No Love",
+      "artist": "Death Grips",
+      "album": "No Love Deep Web",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f552daab2bc3dc64d2c4c649",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=No%20Love%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270733723",
+      "title": "Lock Your Doors",
+      "artist": "Death Grips",
+      "album": "No Love Deep Web",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f552daab2bc3dc64d2c4c649",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Lock%20Your%20Doors%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270734839",
+      "title": "Pop",
+      "artist": "Death Grips",
+      "album": "No Love Deep Web",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f552daab2bc3dc64d2c4c649",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Pop%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270735959",
+      "title": "Artificial Death In The West",
+      "artist": "Death Grips",
+      "album": "No Love Deep Web",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f552daab2bc3dc64d2c4c649",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Artificial%20Death%20In%20The%20West%20Death%20Grips",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270737191",
+      "title": "Pushing Forward",
+      "artist": "Spirit Award",
+      "album": "The Fear",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025884021b10b11ad831f60bd9",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Pushing%20Forward%20Spirit%20Award",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270738343",
+      "title": "Everybody Just Wants To",
+      "artist": "Johnny Goth",
+      "album": "Everybody Just Wants To",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f719e33f22e7dfc52f578f8c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Everybody%20Just%20Wants%20To%20Johnny%20Goth",
+      "addedAt": "2023-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270767746",
+      "title": "HYAENA",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=HYAENA%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270768878",
+      "title": "THANK GOD",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=THANK%20GOD%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270770008",
+      "title": "MODERN JAM (feat. Teezo Touchdown)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=MODERN%20JAM%20(feat.%20Teezo%20Touchdown)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270771143",
+      "title": "MY EYES",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=MY%20EYES%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270772272",
+      "title": "SIRENS",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SIRENS%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270773398",
+      "title": "MELTDOWN (feat. Drake)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=MELTDOWN%20(feat.%20Drake)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270774530",
+      "title": "TOPIA TWINS (feat. Rob49 & 21 Savage)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=TOPIA%20TWINS%20(feat.%20Rob49%20%26%2021%20Savage)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270775665",
+      "title": "CIRCUS MAXIMUS (feat. The Weeknd & Swae Lee)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=CIRCUS%20MAXIMUS%20(feat.%20The%20Weeknd%20%26%20Swae%20Lee)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270776792",
+      "title": "PARASAIL (feat. Yung Lean & Dave Chappelle)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=PARASAIL%20(feat.%20Yung%20Lean%20%26%20Dave%20Chappelle)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270777923",
+      "title": "LOOOVE (feat. Kid Cudi)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=LOOOVE%20(feat.%20Kid%20Cudi)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270779047",
+      "title": "TELEKINESIS (feat. SZA & Future)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=TELEKINESIS%20(feat.%20SZA%20%26%20Future)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270780219",
+      "title": "TIL FURTHER NOTICE (feat. James Blake & 21 Savage)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=TIL%20FURTHER%20NOTICE%20(feat.%20James%20Blake%20%26%2021%20Savage)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270781357",
+      "title": "FE!N (feat. Playboi Carti)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=FE!N%20(feat.%20Playboi%20Carti)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270782523",
+      "title": "SKITZO (feat. Young Thug)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SKITZO%20(feat.%20Young%20Thug)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270783646",
+      "title": "DELRESTO (ECHOES) (feat. Beyoncé)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=DELRESTO%20(ECHOES)%20(feat.%20Beyonc%C3%A9)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270784792",
+      "title": "LOST FOREVER (feat. Westside Gunn)",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=LOST%20FOREVER%20(feat.%20Westside%20Gunn)%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270785917",
+      "title": "I KNOW ?",
+      "artist": "Travis Scott",
+      "album": "UTOPIA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=I%20KNOW%20%3F%20Travis%20Scott",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270787072",
+      "title": "11 Y ONCE",
+      "artist": "Tainy",
+      "album": "DATA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f885fb64a381318a1c9c14e4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=11%20Y%20ONCE%20Tainy",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270788199",
+      "title": "Baby I'm Bleeding",
+      "artist": "JPEGMAFIA",
+      "album": "Veteran",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f8aaeba5e6dee1745371e822",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Baby%20I'm%20Bleeding%20JPEGMAFIA",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270789344",
+      "title": "Kamikaze",
+      "artist": "Carly Rae Jepsen",
+      "album": "The Loveliest Time",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02521ccb4f47088d061f26aa4d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Kamikaze%20Carly%20Rae%20Jepsen",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270790484",
+      "title": "Air Force One",
+      "artist": "ODD EYE CIRCLE (ARTMS)",
+      "album": "ODD EYE CIRCLE <Version Up>",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f556fe5c4ed7ddbc654e12ee",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Air%20Force%20One%20ODD%20EYE%20CIRCLE%20(ARTMS)",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270791632",
+      "title": "Sci-Fi",
+      "artist": "Tainy",
+      "album": "DATA",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f885fb64a381318a1c9c14e4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Sci-Fi%20Tainy",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270792748",
+      "title": "Fast Forward",
+      "artist": "JEON SOMI",
+      "album": "GAME PLAN",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e027da22ba88dfc26a18122ee2d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Fast%20Forward%20JEON%20SOMI",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270793888",
+      "title": "Online Third Impact: Hype Incarnate.",
+      "artist": "999 Heartake Sabileye",
+      "album": "A Boy Named Hexd",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c1d846938afddbe5a6c56686",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Online%20Third%20Impact%3A%20Hype%20Incarnate.%20999%20Heartake%20Sabileye",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270795004",
+      "title": "Rap Game Third Impact: the End of Hype - Bonus Track",
+      "artist": "999 Heartake Sabileye",
+      "album": "A Boy Named Hexd",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c1d846938afddbe5a6c56686",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Rap%20Game%20Third%20Impact%3A%20the%20End%20of%20Hype%20-%20Bonus%20Track%20999%20Heartake%20Sabileye",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270796162",
+      "title": "Stardust Circuit",
+      "artist": "Starjunk 95",
+      "album": "Stardust Circuit",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fbdd028245af4c0f39ad11ce",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Stardust%20Circuit%20Starjunk%2095",
+      "addedAt": "2023-08-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270888363",
+      "title": "what? huh? excuse me? hello???",
+      "artist": "eightiesheadachetape",
+      "album": "for a while",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023e1118788d70db4dca9e4dd1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=what%3F%20huh%3F%20excuse%20me%3F%20hello%3F%3F%3F%20eightiesheadachetape",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270889489",
+      "title": "gas station 6pm",
+      "artist": "eightiesheadachetape",
+      "album": "for a while",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023e1118788d70db4dca9e4dd1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=gas%20station%206pm%20eightiesheadachetape",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270890627",
+      "title": "カオスが極まる",
+      "artist": "UNISON SQUARE GARDEN",
+      "album": "カオスが極まる",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02acb32a9b371d0d43f5daf076",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%E3%82%AB%E3%82%AA%E3%82%B9%E3%81%8C%E6%A5%B5%E3%81%BE%E3%82%8B%20UNISON%20SQUARE%20GARDEN",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270891794",
+      "title": "綺羅綺羅",
+      "artist": "Reol",
+      "album": "綺羅綺羅",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d9558a98d85fee80591882dc",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%E7%B6%BA%E7%BE%85%E7%B6%BA%E7%BE%85%20Reol",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270892944",
+      "title": "WALLFLOWER",
+      "artist": "TWICE",
+      "album": "READY TO BE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0259f57a5ca507a3d3fed81ea6",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=WALLFLOWER%20TWICE",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270938387",
+      "title": "Mama's Boy",
+      "artist": "Dominic Fike",
+      "album": "Mama's Boy",
+      "albumArt": "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F045fd7af9c02255489962620f4a0b920.999x999x1.png",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Mama's%20Boy%20Dominic%20Fike",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270939519",
+      "title": "PLASTIC LOVE",
+      "artist": "gabi belle",
+      "album": "PLASTIC LOVE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025e2475da1764ffbeb5df918e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=PLASTIC%20LOVE%20gabi%20belle",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270940661",
+      "title": "emotion engine",
+      "artist": "Dazegxd",
+      "album": "vKiSS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d67816ddee3a4d403459c7c4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=emotion%20engine%20Dazegxd",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270941856",
+      "title": "Speed Drive (From Barbie The Album)",
+      "artist": "Charli xcx",
+      "album": "Speed Drive (From Barbie The Album)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cd6f4f3b7d178e0a8b963da1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Speed%20Drive%20(From%20Barbie%20The%20Album)%20Charli%20xcx",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735270942990",
+      "title": "切っ先",
+      "artist": "Reol",
+      "album": "切っ先",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0217fa6cd919041b423c63d595",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%E5%88%87%E3%81%A3%E5%85%88%20Reol",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271004615",
+      "title": "Beginnings",
+      "artist": "Hayden James",
+      "album": "Hayden James",
+      "albumArt": "https://i1.sndcdn.com/artworks-000056541453-r92nev-t500x500.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Beginnings%20Hayden%20James",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271005740",
+      "title": "FIREWORKS.",
+      "artist": "NEUPINK",
+      "album": "FIREWORKS.",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22f1b62bc7b9e92d240c806",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=FIREWORKS.%20NEUPINK",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271006877",
+      "title": "dancing while the world burns",
+      "artist": "adore",
+      "album": "dancing while the world burns",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0224ca23e6c638e0b898d22883",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=dancing%20while%20the%20world%20burns%20adore",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271008038",
+      "title": "治本",
+      "artist": "魚條",
+      "album": "治本",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023dddd3147fcfc1a4344184e4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%E6%B2%BB%E6%9C%AC%20%E9%AD%9A%E6%A2%9D",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271009193",
+      "title": "Natural Kibun",
+      "artist": "Cwondo",
+      "album": "Tae",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269689d40ee15e4a21489698d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Natural%20Kibun%20Cwondo",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271010333",
+      "title": "Neon Lights",
+      "artist": "Lillies and Remains",
+      "album": "Neon Lights",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e028b2b8a773130f4da12688bb0",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Neon%20Lights%20Lillies%20and%20Remains",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271011454",
+      "title": "SMILEY(Feat. BIBI)",
+      "artist": "YENA",
+      "album": "ˣ‿ˣ (SMiLEY)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a435b6276480ed558eece0fd",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SMILEY(Feat.%20BIBI)%20YENA",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271012593",
+      "title": "Silent Assassin",
+      "artist": "Tkay Maidza",
+      "album": "Silent Assassin",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d0fbd00f34130ce5a6b699c0",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Silent%20Assassin%20Tkay%20Maidza",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271013725",
+      "title": "How Much Is Weed?",
+      "artist": "Dominic Fike",
+      "album": "Sunburn",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020fb08616c78d44ceb4c8d061",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=How%20Much%20Is%20Weed%3F%20Dominic%20Fike",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271014864",
+      "title": "Ant Pile",
+      "artist": "Dominic Fike",
+      "album": "Sunburn",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020fb08616c78d44ceb4c8d061",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Ant%20Pile%20Dominic%20Fike",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271015986",
+      "title": "Dancing In The Courthouse",
+      "artist": "Dominic Fike",
+      "album": "Sunburn",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020fb08616c78d44ceb4c8d061",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Dancing%20In%20The%20Courthouse%20Dominic%20Fike",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271017131",
+      "title": "Mona Lisa",
+      "artist": "Dominic Fike",
+      "album": "Sunburn",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020fb08616c78d44ceb4c8d061",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Mona%20Lisa%20Dominic%20Fike",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271018278",
+      "title": "BACKWARDS",
+      "artist": "RUNNER BOY",
+      "album": "BACKWARDS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0238f684c53a2621063104e9dc",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=BACKWARDS%20RUNNER%20BOY",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271019409",
+      "title": "Cherry",
+      "artist": "Rina Sawayama",
+      "album": "Cherry",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c0e2c6a9afa145b6ab6ca6d9",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Cherry%20Rina%20Sawayama",
+      "addedAt": "2023-07-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271167369",
+      "title": "Annihilate",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Annihilate%20Metro%20Boomin",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271168554",
+      "title": "Am I Dreaming",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Am%20I%20Dreaming%20Metro%20Boomin",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271235998",
+      "title": "Spider-Woman (Gwen Stacy)",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Spider-Woman%20(Gwen%20Stacy)%20Daniel%20Pemberton",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271238005",
+      "title": "The Right to Remain Silent",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Right%20to%20Remain%20Silent%20Daniel%20Pemberton",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271239125",
+      "title": "Hummingbird",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hummingbird%20Metro%20Boomin",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271240245",
+      "title": "Calling",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Calling%20Metro%20Boomin",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271242318",
+      "title": "Silk & Cologne",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Silk%20%26%20Cologne%20EI8HT",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271243437",
+      "title": "Self Love",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Self%20Love%20Metro%20Boomin",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271245364",
+      "title": "Mona Lisa",
+      "artist": "Various Artists",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Mona%20Lisa%20Dominic%20Fike",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271246488",
+      "title": "Crunch Punch",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Crunch%20Punch%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271247611",
+      "title": "M.utually A.ssured D.estruction",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=M.utually%20A.ssured%20D.estruction%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271248735",
+      "title": "Human Sadness",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Human%20Sadness%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271249870",
+      "title": "Where No Eagles Fly",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Where%20No%20Eagles%20Fly%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271250991",
+      "title": "Father Electricity",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Father%20Electricity%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271252131",
+      "title": "Johan Von Bronx",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Johan%20Von%20Bronx%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271253258",
+      "title": "Business Dog",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Business%20Dog%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271254381",
+      "title": "Xerox",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Xerox%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271255497",
+      "title": "Dare I Care",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Dare%20I%20Care%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271256628",
+      "title": "Nintendo Blood",
+      "artist": "The Voidz",
+      "album": "Tyranny",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021596f2f85e687284c8c3be80",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Nintendo%20Blood%20The%20Voidz",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271257772",
+      "title": "New Beginning",
+      "artist": "Automatic",
+      "album": "Excess",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e028790e5214fa78c0703adafc5",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=New%20Beginning%20Automatic",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271258905",
+      "title": "Highway",
+      "artist": "Automatic",
+      "album": "Signal",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cb598ec7647a0a97d3d72d2f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Highway%20Automatic",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271260052",
+      "title": "PORSCHE TOPLESS",
+      "artist": "Kid Cudi",
+      "album": "PORSCHE TOPLESS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e029e847efa5892af55af380125",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=PORSCHE%20TOPLESS%20Kid%20Cudi",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271261184",
+      "title": "Trust",
+      "artist": "eightiesheadachetape",
+      "album": "Trust",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024af1c885576e77cf3122a878",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Trust%20eightiesheadachetape",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271262299",
+      "title": "what we did in the desert",
+      "artist": "eightiesheadachetape",
+      "album": "for a while",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023e1118788d70db4dca9e4dd1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=what%20we%20did%20in%20the%20desert%20eightiesheadachetape",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271263427",
+      "title": "through the light",
+      "artist": "dracodraco",
+      "album": "through the light",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0288c2d40bf534e0ef64335140",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=through%20the%20light%20dracodraco",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271264565",
+      "title": "BLUELOCK",
+      "artist": "村山☆潤",
+      "album": "TVアニメ『ブルーロック』オリジナルサウンドトラック",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0210f3b90f6bfef1c29af88509",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=BLUELOCK%20%E6%9D%91%E5%B1%B1%E2%98%86%E6%BD%A4",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271265694",
+      "title": "Aggressive",
+      "artist": "村山☆潤",
+      "album": "TVアニメ『ブルーロック』オリジナルサウンドトラック",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0210f3b90f6bfef1c29af88509",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Aggressive%20%E6%9D%91%E5%B1%B1%E2%98%86%E6%BD%A4",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271266855",
+      "title": "Extension",
+      "artist": "村山☆潤",
+      "album": "TVアニメ『ブルーロック』オリジナルサウンドトラック",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0210f3b90f6bfef1c29af88509",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Extension%20%E6%9D%91%E5%B1%B1%E2%98%86%E6%BD%A4",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271267980",
+      "title": "Protrusion",
+      "artist": "村山☆潤",
+      "album": "TVアニメ『ブルーロック』オリジナルサウンドトラック",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0210f3b90f6bfef1c29af88509",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Protrusion%20%E6%9D%91%E5%B1%B1%E2%98%86%E6%BD%A4",
+      "addedAt": "2023-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271277837",
+      "title": "SCORPION",
+      "artist": "Reol",
+      "album": "COLORED DISC",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e62ae75568d4d02ad3bb9ca3",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SCORPION%20Reol",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271278995",
+      "title": "Cupid",
+      "artist": "FIFTY FIFTY",
+      "album": "The Beginning: Cupid",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02252b208de2e704c5a6ef3bf9",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Cupid%20FIFTY%20FIFTY",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271280173",
+      "title": "[A]Ddiction",
+      "artist": "EVO+",
+      "album": "Evolution",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ee7575a6480db851e9ad7e43",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%5BA%5DDdiction%20EVO%2B",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271281328",
+      "title": "Holiday House",
+      "artist": "Beach House",
+      "album": "Become",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e026448d089b0f68fb9cee997f0",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Holiday%20House%20Beach%20House",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271282483",
+      "title": "No More Lies",
+      "artist": "Thundercat",
+      "album": "No More Lies",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02882c536d8dcfb086bcf9733b",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=No%20More%20Lies%20Thundercat",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271283605",
+      "title": "Neunzig",
+      "artist": "Apache 207",
+      "album": "Neunzig",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b0776b42c12ca33eba69e362",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Neunzig%20Apache%20207",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271284743",
+      "title": "Burn the Bridge",
+      "artist": "LE SSERAFIM",
+      "album": "UNFORGIVEN",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d71fd77b89d08bc1bda219c7",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Burn%20the%20Bridge%20LE%20SSERAFIM",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271285884",
+      "title": "sever the blight",
+      "artist": "hemlocke springs",
+      "album": "sever the blight",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0279fb74ace82ce4542d28ab58",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=sever%20the%20blight%20hemlocke%20springs",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271287022",
+      "title": "as if",
+      "artist": "glaive",
+      "album": "as if",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fde800cdadc3cc80aa46fa3b",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=as%20if%20glaive",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271288152",
+      "title": "Infinity Repeating (2013 Demo) [feat. Julian Casablancas+The Voidz]",
+      "artist": "Daft Punk",
+      "album": "Infinity Repeating (2013 Demo) [feat. Julian Casablancas+The Voidz]",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0234c0c8afee6e2f73ac464df9",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Infinity%20Repeating%20(2013%20Demo)%20%5Bfeat.%20Julian%20Casablancas%2BThe%20Voidz%5D%20Daft%20Punk",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271289286",
+      "title": "Hare Hare",
+      "artist": "TWICE",
+      "album": "Hare Hare",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02355bb5ca71fe89b9720a535b",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hare%20Hare%20TWICE",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271290465",
+      "title": "Heaven",
+      "artist": "The Walkmen",
+      "album": "Heaven",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022407c0246be3a6724a0d779e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Heaven%20The%20Walkmen",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271291591",
+      "title": "Ярче",
+      "artist": "Второй этаж поражает",
+      "album": "Крайности",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022fb392f36a74674089279317",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%D0%AF%D1%80%D1%87%D0%B5%20%D0%92%D1%82%D0%BE%D1%80%D0%BE%D0%B9%20%D1%8D%D1%82%D0%B0%D0%B6%20%D0%BF%D0%BE%D1%80%D0%B0%D0%B6%D0%B0%D0%B5%D1%82",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271292723",
+      "title": "i85mixxalbumversion",
+      "artist": "Material Girl",
+      "album": "i85mixx21-22",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02218f32f2e718579ea7bda042",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=i85mixxalbumversion%20Material%20Girl",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271293856",
+      "title": "TWIT",
+      "artist": "HWASA",
+      "album": "TWIT",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0246c377827f3ad9fa6b0f64df",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=TWIT%20HWASA",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271294993",
+      "title": "Horizon (Japan CD)",
+      "artist": "Daft Punk",
+      "album": "Random Access Memories (10th Anniversary Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023c196ec7c5344d654ff552e9",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Horizon%20(Japan%20CD)%20Daft%20Punk",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271296135",
+      "title": "Welcome To MY World (feat. nævis)",
+      "artist": "aespa",
+      "album": "MY WORLD - The 3rd Mini Album",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0204878afb19613a94d37b29ce",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Welcome%20To%20MY%20World%20(feat.%20n%C3%A6vis)%20aespa",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271297261",
+      "title": "Prophecy of the Dragon",
+      "artist": "The Voidz",
+      "album": "Prophecy of the Dragon",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021add543f6c94417324c3e6e6",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Prophecy%20of%20the%20Dragon%20The%20Voidz",
+      "addedAt": "2023-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271464601",
+      "title": "Daddy",
+      "artist": "Nourished by Time",
+      "album": "Daddy",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02211b4f0d78e4f87dda95c07f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Daddy%20Nourished%20by%20Time",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271465732",
+      "title": "Guitar + Peaches",
+      "artist": "kelz",
+      "album": "5am and I Can't Sleep",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0266761a1ad3323267cc277a18",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Guitar%20%2B%20Peaches%20kelz",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271466864",
+      "title": "INCREDIBLE WORLD",
+      "artist": "Kilo Kish",
+      "album": "AMERICAN GURL: SUPER DELUXE VALUE SIZE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0236ede9355a37661a4c2437cd",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=INCREDIBLE%20WORLD%20Kilo%20Kish",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271468011",
+      "title": "Knew You Better",
+      "artist": "Haich Ber Na",
+      "album": "When We Knew Less",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d54e32a9789c42a7fa1f80cc",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Knew%20You%20Better%20Haich%20Ber%20Na",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271469176",
+      "title": "Have Mercy",
+      "artist": "Chlöe",
+      "album": "Have Mercy",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e5854bb0267f0656f464a072",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Have%20Mercy%20Chl%C3%B6e",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271470325",
+      "title": "Komet",
+      "artist": "Udo Lindenberg",
+      "album": "Komet",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e028945d66b89a2fefd8e6b2181",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Komet%20Udo%20Lindenberg",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271471448",
+      "title": "Told Ya",
+      "artist": "Chlöe",
+      "album": "In Pieces",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020b207265751693def1345c7e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Told%20Ya%20Chl%C3%B6e",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271472569",
+      "title": "Looze U",
+      "artist": "Chlöe",
+      "album": "In Pieces",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020b207265751693def1345c7e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Looze%20U%20Chl%C3%B6e",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271473698",
+      "title": "Feel Me Cry",
+      "artist": "Chlöe",
+      "album": "In Pieces",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020b207265751693def1345c7e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Feel%20Me%20Cry%20Chl%C3%B6e",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271474821",
+      "title": "Body Do",
+      "artist": "Chlöe",
+      "album": "In Pieces",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020b207265751693def1345c7e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Body%20Do%20Chl%C3%B6e",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271475943",
+      "title": "Love Is All I Needed",
+      "artist": "Mandaworld",
+      "album": "Love Is All I Needed",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c2eddbeac6141bfcf75524ab",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Love%20Is%20All%20I%20Needed%20Mandaworld",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271504275",
+      "title": "Explode - From The Angry Birds Movie Soundtrack",
+      "artist": "Charli xcx",
+      "album": "The Angry Birds Movie (Original Motion Picture Soundtrack)",
+      "albumArt": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/28/bd/1828bd74-fc54-3363-3410-5105c0af18c2/075679911872.jpg/1200x1200bf-60.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Explode%20-%20From%20The%20Angry%20Birds%20Movie%20Soundtrack%20Charli%20xcx",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271505415",
+      "title": "Recipe ~ for Simon",
+      "artist": "GWSN",
+      "album": "THE PARK IN THE NIGHT part three",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a02d76fa292b755ba8bbf9e2",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Recipe%20~%20for%20Simon%20GWSN",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271506544",
+      "title": "LIGHTS PLEASE (feat. Pusha T & CHASE B)",
+      "artist": "Khi Infinite",
+      "album": "LIGHTS PLEASE (feat. Pusha T & CHASE B)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e7c9c9804fa31bff06519e97",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=LIGHTS%20PLEASE%20(feat.%20Pusha%20T%20%26%20CHASE%20B)%20Khi%20Infinite",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271556048",
+      "title": "Dumbest Girl Alive",
+      "artist": "100 gecs",
+      "album": "10000 gecs",
+      "albumArt": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.albumoftheyear.org%2Falbum%2F411506-10000-gecs.jpg&f=1&nofb=1&ipt=1cab8f6da131b5b47aedd8892d47e5d7691015dcfe1a5531c5eff7bbf24c2faf&ipo=images",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Dumbest%20Girl%20Alive%20100%20gecs",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271565365",
+      "title": "757",
+      "artist": "100 gecs",
+      "album": "10000 gecs",
+      "albumArt": "https://cdn.albumoftheyear.org/album/411506-10000-gecs.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=757%20100%20gecs",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271567457",
+      "title": "Hollywood Baby",
+      "artist": "100 gecs",
+      "album": "10000 gecs",
+      "albumArt": "https://cdn.albumoftheyear.org/album/411506-10000-gecs.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hollywood%20Baby%20100%20gecs",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271569325",
+      "title": "Frog On The Floor",
+      "artist": "100 gecs",
+      "album": "10000 gecs",
+      "albumArt": "https://cdn.albumoftheyear.org/album/411506-10000-gecs.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Frog%20On%20The%20Floor%20100%20gecs",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271571215",
+      "title": "I Got My Tooth Removed",
+      "artist": "100 gecs",
+      "album": "10000 gecs",
+      "albumArt": "https://cdn.albumoftheyear.org/album/411506-10000-gecs.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=I%20Got%20My%20Tooth%20Removed%20100%20gecs",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271572352",
+      "title": "Aspartame",
+      "artist": "May Rio",
+      "album": "Aspartame",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024175d86ffe6815af4cc3cc12",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Aspartame%20May%20Rio",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271573473",
+      "title": "Diva",
+      "artist": "Princess Nokia",
+      "album": "Diva",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022c6ff6a3023aea200372b7f3",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Diva%20Princess%20Nokia",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271574606",
+      "title": "SORRY NOT SORRY",
+      "artist": "Tyler The Creator",
+      "album": "CALL ME IF YOU GET LOST: The Estate Sale",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02aa95a399fd30fbb4f6f59fca",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SORRY%20NOT%20SORRY%20Tyler%20The%20Creator",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271575809",
+      "title": "Blackout",
+      "artist": "Joyner Lucas",
+      "album": "Blackout",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023d7660963d9effe981619968",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Blackout%20Joyner%20Lucas",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271576945",
+      "title": "中庭の少女たち",
+      "artist": "SHISHAMO",
+      "album": "SHISHAMO 3",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022d8842490db1225f1d3dccc7",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%E4%B8%AD%E5%BA%AD%E3%81%AE%E5%B0%91%E5%A5%B3%E3%81%9F%E3%81%A1%20SHISHAMO",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271578080",
+      "title": "Schimmel in der Villa",
+      "artist": "Apache 207",
+      "album": "Schimmel in der Villa",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025479fe448398626c0617a8b1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Schimmel%20in%20der%20Villa%20Apache%20207",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271599462",
+      "title": "Prizefighter",
+      "artist": "Youth Lagoon",
+      "album": "Prizefighter",
+      "albumArt": "https://e.snmc.io/i/600/w/ec5c27ea46df3ffa6a586da10444b38a/10753554/youth-lagoon-heaven-is-a-junkyard-Cover-Art.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Prizefighter%20Youth%20Lagoon",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271600588",
+      "title": "アイドル",
+      "artist": "YOASOBI",
+      "album": "アイドル",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b7d6ca50bf766ad72226290c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20YOASOBI",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271601723",
+      "title": "Welcome To My Island",
+      "artist": "Caroline Polachek",
+      "album": "Desire I Want To Turn Into You",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02de17893c581b6f4fbeba51e1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Welcome%20To%20My%20Island%20Caroline%20Polachek",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271602890",
+      "title": "サマーホラーパーティ",
+      "artist": "Reol",
+      "album": "Σ",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e027eb0b6f27578d87476a12667",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%9B%E3%83%A9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%20Reol",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271604010",
+      "title": "I Believe",
+      "artist": "Caroline Polachek",
+      "album": "Desire I Want To Turn Into You",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02de17893c581b6f4fbeba51e1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=I%20Believe%20Caroline%20Polachek",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271605129",
+      "title": "Smoke",
+      "artist": "Caroline Polachek",
+      "album": "Desire I Want To Turn Into You",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02de17893c581b6f4fbeba51e1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Smoke%20Caroline%20Polachek",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271606262",
+      "title": "Billions",
+      "artist": "Caroline Polachek",
+      "album": "Desire I Want To Turn Into You",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02de17893c581b6f4fbeba51e1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Billions%20Caroline%20Polachek",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271607385",
+      "title": "Bunny Is A Rider",
+      "artist": "Caroline Polachek",
+      "album": "Desire I Want To Turn Into You",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02de17893c581b6f4fbeba51e1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bunny%20Is%20A%20Rider%20Caroline%20Polachek",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271608525",
+      "title": "I AM",
+      "artist": "IVE",
+      "album": "I've IVE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025dce4583d2c87eefeeab8213",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=I%20AM%20IVE",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271609649",
+      "title": "Kitsch",
+      "artist": "IVE",
+      "album": "I've IVE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025dce4583d2c87eefeeab8213",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Kitsch%20IVE",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271610812",
+      "title": "Lips",
+      "artist": "IVE",
+      "album": "I've IVE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025dce4583d2c87eefeeab8213",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Lips%20IVE",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271611953",
+      "title": "Yum",
+      "artist": "slowthai",
+      "album": "UGLY",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f9d56cda4b554b0d1e9722a2",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Yum%20slowthai",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271613073",
+      "title": "Sooner",
+      "artist": "slowthai",
+      "album": "UGLY",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f9d56cda4b554b0d1e9722a2",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Sooner%20slowthai",
+      "addedAt": "2023-04-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271626536",
+      "title": "STEPMOM",
+      "artist": "DACEY",
+      "album": "STEPMOM",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021c15c537b992021759a24862",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=STEPMOM%20DACEY",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271627668",
+      "title": "Slither",
+      "artist": "Djo",
+      "album": "DECIDE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Slither%20Djo",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271628787",
+      "title": "End of Beginning",
+      "artist": "Djo",
+      "album": "DECIDE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=End%20of%20Beginning%20Djo",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271629912",
+      "title": "Go For It",
+      "artist": "Djo",
+      "album": "DECIDE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Go%20For%20It%20Djo",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271631085",
+      "title": "Figure You Out",
+      "artist": "Djo",
+      "album": "DECIDE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Figure%20You%20Out%20Djo",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271632226",
+      "title": "the BLACK seminole.",
+      "artist": "Lil Yachty",
+      "album": "Let’s Start Here.",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e026f578b21bce56056473da7e6",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=the%20BLACK%20seminole.%20Lil%20Yachty",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271664974",
+      "title": "They Want It But No",
+      "artist": "Tobe Nwigwe",
+      "album": "Black Panther: Wakanda Forever - Music From and Inspired By",
+      "albumArt": "https://e.snmc.io/i/600/w/decdf139f7214764a801d2061a27bc80/10398520/various-artists-black-panther-wakanda-forever-Cover-Art.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=They%20Want%20It%20But%20No%20Tobe%20Nwigwe",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271666108",
+      "title": "Take Me Home",
+      "artist": "PinkPantheress",
+      "album": "Take me home",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0278c582c67f2104448ec471ab",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Take%20Me%20Home%20PinkPantheress",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271667281",
+      "title": "The Prince",
+      "artist": "Madeon",
+      "album": "The Prince",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0218dfaad83b61579bdf6983d4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Prince%20Madeon",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271668417",
+      "title": "10.000",
+      "artist": "ColBreakz",
+      "album": "10.000",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0272b33105b495c06b866a3af2",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=10.000%20ColBreakz",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271669546",
+      "title": "Bitches",
+      "artist": "Louis Cole",
+      "album": "Quality Over Opinion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e027bed62fe63257e9edfe3bcb4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bitches%20Louis%20Cole",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271670670",
+      "title": "Infinite Source",
+      "artist": "Grapetooth",
+      "album": "Infinite Source",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0227ae6332098101f074c596c8",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Infinite%20Source%20Grapetooth",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271671841",
+      "title": "NOW THAT YOU'VE GONE",
+      "artist": "DOOPEES",
+      "album": "DOOPEE TIME",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022d5e36429eb8cd31cd67ca4c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=NOW%20THAT%20YOU'VE%20GONE%20DOOPEES",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271672976",
+      "title": "Silent Running (feat. Adeleye Omotayo)",
+      "artist": "Gorillaz",
+      "album": "Cracker Island",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024b0ddebba0d5b34f2a2f07a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Silent%20Running%20(feat.%20Adeleye%20Omotayo)%20Gorillaz",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271674132",
+      "title": "The Tired Influencer",
+      "artist": "Gorillaz",
+      "album": "Cracker Island",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024b0ddebba0d5b34f2a2f07a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Tired%20Influencer%20Gorillaz",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271675265",
+      "title": "Oil (feat. Stevie Nicks)",
+      "artist": "Gorillaz",
+      "album": "Cracker Island",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024b0ddebba0d5b34f2a2f07a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Oil%20(feat.%20Stevie%20Nicks)%20Gorillaz",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271676453",
+      "title": "Tarantula",
+      "artist": "Gorillaz",
+      "album": "Cracker Island",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024b0ddebba0d5b34f2a2f07a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Tarantula%20Gorillaz",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271677580",
+      "title": "Skinny Ape",
+      "artist": "Gorillaz",
+      "album": "Cracker Island",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024b0ddebba0d5b34f2a2f07a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Skinny%20Ape%20Gorillaz",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271678705",
+      "title": "New Gold (feat. Tame Impala and Bootie Brown)",
+      "artist": "Gorillaz",
+      "album": "Cracker Island",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024b0ddebba0d5b34f2a2f07a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=New%20Gold%20(feat.%20Tame%20Impala%20and%20Bootie%20Brown)%20Gorillaz",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271679837",
+      "title": "Hawaii - Juicebox B-Side",
+      "artist": "The Strokes",
+      "album": "The Singles - Volume 01",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f71abcb4d9ba0fbbc62fe867",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hawaii%20-%20Juicebox%20B-Side%20The%20Strokes",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271680968",
+      "title": "Hi-Fidelity",
+      "artist": "Lava La Rue",
+      "album": "Hi-Fidelity",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b888b6560213b05a1ecc58fc",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hi-Fidelity%20Lava%20La%20Rue",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271682112",
+      "title": "Hate Dancin'",
+      "artist": "King Gizzard & The Lizard Wizard",
+      "album": "Changes",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e027bc7f6bf9c5a3cd8bf30836f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hate%20Dancin'%20King%20Gizzard%20%26%20The%20Lizard%20Wizard",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271719789",
+      "title": "Fighting Myself",
+      "artist": "Linkin Park",
+      "album": "Fighting Myself",
+      "albumArt": "https://e.snmc.io/i/600/w/ea6e473d647f3082ee9f3febce027bcb/10698929/linkin-park-lost-Cover-Art.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Fighting%20Myself%20Linkin%20Park",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271720954",
+      "title": "Blue Blood",
+      "artist": "IVE",
+      "album": "I've IVE",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025dce4583d2c87eefeeab8213",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Blue%20Blood%20IVE",
+      "addedAt": "2023-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271786615",
+      "title": "SUNNY AFTERNOON",
+      "artist": "雲端司機 CLOUDRIVER",
+      "album": "SUNNY AFTERNOON",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020e2cbd803c5bb96cbf96451a",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SUNNY%20AFTERNOON%20%E9%9B%B2%E7%AB%AF%E5%8F%B8%E6%A9%9F%20CLOUDRIVER",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271787753",
+      "title": "Wildberry Lillet",
+      "artist": "Nina Chuba",
+      "album": "Wildberry Lillet",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023cc178bf7d4916c51d57a5e9",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Wildberry%20Lillet%20Nina%20Chuba",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271788875",
+      "title": "Glatteis",
+      "artist": "Nina Chuba",
+      "album": "Fieber / Glatteis",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025a4f773afcb0c87b13c19d8b",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Glatteis%20Nina%20Chuba",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271790030",
+      "title": "Ich hass dich",
+      "artist": "Nina Chuba",
+      "album": "Ich hass dich",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025916d44b56d4cf4930287f9d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Ich%20hass%20dich%20Nina%20Chuba",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271791173",
+      "title": "Dead God Graveyard",
+      "artist": "Oliver Buckland",
+      "album": "Temptation Stairway OST",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c4c8e5e16245019425a8996e",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Dead%20God%20Graveyard%20Oliver%20Buckland",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271792291",
+      "title": "Forbidden Doors",
+      "artist": "Tennis",
+      "album": "Pollen",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f76c269513e225b012635866",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Forbidden%20Doors%20Tennis",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271793410",
+      "title": "Pollen Song",
+      "artist": "Tennis",
+      "album": "Pollen",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f76c269513e225b012635866",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Pollen%20Song%20Tennis",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271794545",
+      "title": "Lost",
+      "artist": "Linkin Park",
+      "album": "Lost",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025d283816a23e9ac7511f1519",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Lost%20Linkin%20Park",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271795686",
+      "title": "Would It Kill You At All",
+      "artist": "Dream Ivory",
+      "album": "About A Boy",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cc3c52ce52c270c3feb1d766",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Would%20It%20Kill%20You%20At%20All%20Dream%20Ivory",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271796835",
+      "title": "Kiri Ga Naikara",
+      "artist": "Fujii Kaze",
+      "album": "HELP EVER HURT NEVER",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0222805a1b17e41ae357bd98bc",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Kiri%20Ga%20Naikara%20Fujii%20Kaze",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271797973",
+      "title": "LOST IN THE ECHO",
+      "artist": "Linkin Park",
+      "album": "LIVING THINGS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02987fb4c5ec8790e9f637a4a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=LOST%20IN%20THE%20ECHO%20Linkin%20Park",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271799130",
+      "title": "VICTIMIZED",
+      "artist": "Linkin Park",
+      "album": "LIVING THINGS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02987fb4c5ec8790e9f637a4a4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=VICTIMIZED%20Linkin%20Park",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271800258",
+      "title": "REASON",
+      "artist": "Dreamcatcher",
+      "album": "[REASON]",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0276e659e0e62810161b72bb0d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=REASON%20Dreamcatcher",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271801433",
+      "title": "Red Sun",
+      "artist": "Dreamcatcher",
+      "album": "1st Album [Dystopia : The Tree of Language]",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02107ade016c96b4769c200bc4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Red%20Sun%20Dreamcatcher",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271802552",
+      "title": "SAHARA",
+      "artist": "Dreamcatcher",
+      "album": "1st Album [Dystopia : The Tree of Language]",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02107ade016c96b4769c200bc4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SAHARA%20Dreamcatcher",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271840947",
+      "title": "Paradise",
+      "artist": "SIYEON",
+      "album": "1st Album [Dystopia : The Tree of Language]",
+      "albumArt": "https://e.snmc.io/i/600/w/cce54bc3301b3004eac8ffced65723b3/9311717/dreamcatcher-dystopia-the-tree-of-language-Cover-Art.jpg",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Paradise%20SIYEON",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271864559",
+      "title": "Boy's a liar Pt. 2",
+      "artist": "PinkPantheress",
+      "album": "Boy's a liar Pt. 2",
+      "albumArt": "https://e.snmc.io/i/600/w/76360f52fdb4566e272231d1f9d98c8d/10715107/pinkpantheress-and-ice-spice-boys-a-liar-pt-2-Cover-Art.png",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Boy's%20a%20liar%20Pt.%202%20PinkPantheress",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271865814",
+      "title": "(You) On My Arm",
+      "artist": "Leith Ross",
+      "album": "(You) On My Arm",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02c57b73261274aee212601b4f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=(You)%20On%20My%20Arm%20Leith%20Ross",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271866934",
+      "title": "Glue Song",
+      "artist": "beabadoobee",
+      "album": "Glue Song",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e3862aeefcb2f0860ef017e4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Glue%20Song%20beabadoobee",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271868057",
+      "title": "TEMPTRESS",
+      "artist": "Ray Laurél",
+      "album": "TEMPTRESS",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02202b7f448531911eb15836e2",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=TEMPTRESS%20Ray%20Laur%C3%A9l",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271869185",
+      "title": "promised",
+      "artist": "quinnie",
+      "album": "flounder",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0254f3c538b6e33f55829122f4",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=promised%20quinnie",
+      "addedAt": "2023-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271875007",
+      "title": "Cute Circus",
+      "artist": "Tsundere Twintails",
+      "album": "Cute Circus",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e024d0e0ab47c09354165207edc",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Cute%20Circus%20Tsundere%20Twintails",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271876187",
+      "title": "Baby's Gone",
+      "artist": "Free The Birds",
+      "album": "Free The Birds",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0297e44c9fff0f818a58e63e5f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Baby's%20Gone%20Free%20The%20Birds",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271877313",
+      "title": "Window",
+      "artist": "Free The Birds",
+      "album": "Free The Birds",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0297e44c9fff0f818a58e63e5f",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Window%20Free%20The%20Birds",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271878464",
+      "title": "Pills & Good Advice",
+      "artist": "Left at London",
+      "album": "t.i.a.p.f.y.h.",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021359cc4a0aaa6aa6cc780294",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Pills%20%26%20Good%20Advice%20Left%20at%20London",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271879595",
+      "title": "Static Dream",
+      "artist": "PENDANT",
+      "album": "Harp",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0293c319c340fc1b9b2638148d",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Static%20Dream%20PENDANT",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271880724",
+      "title": "LONG SEASON",
+      "artist": "Fishmans",
+      "album": "LONG SEASON",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02f9f1de08fccfce6067fbd225",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=LONG%20SEASON%20Fishmans",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271881855",
+      "title": "Salt in the Wounds",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Salt%20in%20the%20Wounds%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271882979",
+      "title": "Watercolour - Full Version; Single",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Watercolour%20-%20Full%20Version%3B%20Single%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271884122",
+      "title": "Crush",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Crush%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271885248",
+      "title": "Under the Waves",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Under%20the%20Waves%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271886378",
+      "title": "Immunize (feat. Liam Howlett)",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Immunize%20(feat.%20Liam%20Howlett)%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271887552",
+      "title": "The Island Pt. I (Dawn)",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Island%20Pt.%20I%20(Dawn)%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271888676",
+      "title": "The Island Pt. II (Dusk)",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Island%20Pt.%20II%20(Dusk)%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271889793",
+      "title": "The Vulture",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Vulture%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271890913",
+      "title": "Witchcraft",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Witchcraft%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271892044",
+      "title": "The Fountain (feat. Steven Wilson)",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The%20Fountain%20(feat.%20Steven%20Wilson)%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271893180",
+      "title": "Encoder",
+      "artist": "Pendulum",
+      "album": "Immersion",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0230f8e0f777376780c4077507",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Encoder%20Pendulum",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271894307",
+      "title": "Girl mit den Likes",
+      "artist": "Julia Beautx",
+      "album": "Girl mit den Likes",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e029bba116dc686e8ea425e98a3",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Girl%20mit%20den%20Likes%20Julia%20Beautx",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271895440",
+      "title": "Ohne Benzin",
+      "artist": "Domiziana",
+      "album": "Ohne Benzin",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d357802eddb76930c925a18c",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Ohne%20Benzin%20Domiziana",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271896594",
+      "title": "Tour de Berlin",
+      "artist": "Ski Aggu",
+      "album": "Tour de Berlin",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fb5e17852ed8775dd4a20ef2",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Tour%20de%20Berlin%20Ski%20Aggu",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271897727",
+      "title": "Hubba Bubba",
+      "artist": "Ski Aggu",
+      "album": "Tour de Berlin",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fb5e17852ed8775dd4a20ef2",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Hubba%20Bubba%20Ski%20Aggu",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271898850",
+      "title": "SHOOTING STAR",
+      "artist": "XG",
+      "album": "SHOOTING STAR",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e023f40fd20e67b865fca5391a3",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SHOOTING%20STAR%20XG",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271900000",
+      "title": "It's So Wonderful",
+      "artist": "石元 丈晴",
+      "album": "The World Ends With You (Original Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020e3d70f31959ce8d1dad1551",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=It's%20So%20Wonderful%20%E7%9F%B3%E5%85%83%20%E4%B8%88%E6%99%B4",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271901132",
+      "title": "Twister",
+      "artist": "石元 丈晴",
+      "album": "The World Ends With You (Original Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020e3d70f31959ce8d1dad1551",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Twister%20%E7%9F%B3%E5%85%83%20%E4%B8%88%E6%99%B4",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271902281",
+      "title": "Calling",
+      "artist": "石元 丈晴",
+      "album": "The World Ends With You (Original Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020e3d70f31959ce8d1dad1551",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Calling%20%E7%9F%B3%E5%85%83%20%E4%B8%88%E6%99%B4",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271903402",
+      "title": "Give Me All Your Love",
+      "artist": "石元 丈晴",
+      "album": "The World Ends With You (Original Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020e3d70f31959ce8d1dad1551",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Give%20Me%20All%20Your%20Love%20%E7%9F%B3%E5%85%83%20%E4%B8%88%E6%99%B4",
+      "addedAt": "2023-01-01T12:00:00.000Z"
+    },
+    {
+      "id": "1735271904576",
+      "title": "SHIBUYA",
+      "artist": "石元 丈晴",
+      "album": "The World Ends With You (Original Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020e3d70f31959ce8d1dad1551",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=SHIBUYA%20%E7%9F%B3%E5%85%83%20%E4%B8%88%E6%99%B4",
+      "addedAt": "2023-01-01T12:00:00.000Z"
     }
   ]
 }

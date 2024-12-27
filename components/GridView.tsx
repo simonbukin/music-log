@@ -55,9 +55,6 @@ export function GridView({
                 >
                   <SongStack
                     songs={songGroup}
-                    onClick={() => {
-                      // Optional: Add click handler to show details modal
-                    }}
                   />
                 </motion.div>
               ))

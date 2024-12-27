@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Song } from "@/lib/types";
-import Image from "next/image";
 import { AlbumArt } from "./AlbumArt";
 
 export function SongStack({ songs }: { songs: Song[] }) {
