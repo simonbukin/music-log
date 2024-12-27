@@ -3,38 +3,65 @@ import path from "path";
 import { parse } from "csv-parse/sync";
 import songsJson from "../data/songs.json";
 import { Song } from "../lib/types";
+import readline from "readline";
 
 type CsvRow = [string, string, string, ...any[]]; // First 3 columns, ignore rest
 
-async function searchMusicBrainz(artist: string, album: string) {
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+async function getSpotifyToken() {
+  console.log(process.env.SPOTIFY_CLIENT_ID);
+  console.log(process.env.SPOTIFY_CLIENT_SECRET);
+  const response = await fetch("https://accounts.spotify.com/api/token", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Authorization: `Basic ${Buffer.from(
+        `${process.env.SPOTIFY_CLIENT_ID}:${process.env.SPOTIFY_CLIENT_SECRET}`
+      ).toString("base64")}`,
+    },
+    body: "grant_type=client_credentials",
+  });
+
+  const data = await response.json();
+  return data.access_token;
+}
+
+async function searchSpotify(artist: string, album: string, token: string) {
   try {
     const response = await fetch(
-      `https://musicbrainz.org/ws/2/release?query=${encodeURIComponent(
-        `artist:${artist} AND release:${album}`
-      )}&fmt=json`,
+      `https://api.spotify.com/v1/search?q=${encodeURIComponent(
+        `artist:${artist} album:${album}`
+      )}&type=album&limit=1`,
       {
         headers: {
-          "User-Agent": "Songs/1.0.0 (simonbukin@gmail.com)",
+          Authorization: `Bearer ${token}`,
         },
       }
     );
     const data = await response.json();
-
-    if (data.releases?.[0]?.id) {
-      // Try to get cover art from Cover Art Archive
-      const coverResponse = await fetch(
-        `https://coverartarchive.org/release/${data.releases[0].id}`
-      );
-
-      if (coverResponse.ok) {
-        const coverData = await coverResponse.json();
-        return coverData.images?.[0]?.thumbnails?.["250"] || "";
-      }
-    }
+    return data.albums?.items[0]?.images[1]?.url || ""; // Using medium size image
   } catch (error) {
-    console.warn(`Failed to fetch cover art for ${album} by ${artist}`);
+    console.warn(`Failed to fetch Spotify cover art for ${album} by ${artist}`);
+    return "";
   }
-  return "";
+}
+
+async function promptForCoverArt(
+  artist: string,
+  album: string
+): Promise<string> {
+  return new Promise((resolve) => {
+    rl.question(
+      `No cover art found for "${album}" by ${artist}. Please enter a valid image URL (or press enter to skip): `,
+      (answer) => {
+        resolve(answer.trim());
+      }
+    );
+  });
 }
 
 async function main() {
@@ -48,6 +75,8 @@ async function main() {
   const targetMonth = process.argv[3] || new Date().toISOString().slice(0, 7); // YYYY-MM format
 
   try {
+    const spotifyToken = await getSpotifyToken();
+
     // Read and parse CSV
     const csvContent = await fs.readFile(csvPath, "utf-8");
     const records = parse(csvContent, {
@@ -63,12 +92,17 @@ async function main() {
       const title = record[1].trim();
       const album = record[2].trim();
 
-      // Add delay to avoid rate limiting
+      // Add delay between Spotify API calls
       if (newSongs.length > 0) {
         await new Promise((resolve) => setTimeout(resolve, 1000));
       }
 
-      const albumArt = await searchMusicBrainz(artist, album);
+      let albumArt = await searchSpotify(artist, album, spotifyToken);
+
+      // If no cover art found, prompt for manual input
+      if (!albumArt) {
+        albumArt = await promptForCoverArt(artist, album);
+      }
 
       newSongs.push({
         id: Date.now().toString(),
@@ -82,7 +116,6 @@ async function main() {
         addedAt: `${targetMonth}-01T12:00:00.000Z`,
       });
 
-      // Log progress
       console.log(`Processed: ${title} by ${artist}`);
     }
 
@@ -98,8 +131,11 @@ async function main() {
     );
 
     console.log(`✓ Added ${newSongs.length} songs for ${targetMonth}`);
+
+    rl.close();
   } catch (error) {
     console.error("Failed to process songs:", error);
+    rl.close();
     process.exit(1);
   }
 }
